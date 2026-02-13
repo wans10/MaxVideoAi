@@ -42,6 +42,13 @@ const HEADER_COPY: Record<AppLocale, { title: string; versionLabel: string; effe
     companyLine: 'Empresa: MaxVideoAI (empresa individual en constitución) · Ley aplicable: Francia (tribunales de París)',
     contactLabel: 'Contacto:',
   },
+  zh: {
+    title: '服务条款',
+    versionLabel: '版本',
+    effectiveLabel: '生效日期',
+    companyLine: '公司：MaxVideoAI（正在成立的独资企业）· 适用法律：法国（巴黎法院）',
+    contactLabel: '联系方式：',
+  },
 };
 
 type TermsBodyProps = {

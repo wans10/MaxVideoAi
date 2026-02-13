@@ -38,6 +38,12 @@ const HEADER_COPY: Record<AppLocale, { title: string; effective: string; company
     companyLine: 'Empresa: MaxVideoAI',
     contactLabel: 'Contacto:',
   },
+  zh: {
+    title: '通知与下架',
+    effective: '生效日期：2025年10月28日',
+    companyLine: '公司：MaxVideoAI',
+    contactLabel: '联系方式：',
+  },
 };
 
 const FORM_COPY: Record<AppLocale, TakedownFormCopy> = {
@@ -106,6 +112,28 @@ const FORM_COPY: Record<AppLocale, TakedownFormCopy> = {
     success: 'Gracias. Hemos recibido tu reporte y te contactaremos en breve.',
     submitLabel: 'Enviar reporte',
     submittingLabel: 'Enviando…',
+  },
+  zh: {
+    emailLabel: '联系电子邮件',
+    urlLabel: '内容网址',
+    urlPlaceholder: 'https://maxvideoai.com/video/...',
+    reasonLabel: '原因',
+    reasons: {
+      copyright: '版权 / 知识产权侵权',
+      privacy: '隐私 / 个人数据',
+      defamation: '诽谤',
+      trademark: '商标侵权',
+      other: '其他非法内容',
+    },
+    detailsLabel: '详情',
+    detailsPlaceholder: '描述问题以及它为何侵犯您的权利或法律。',
+    detailsHint: '提供足够的信息以便我们定位和评估内容。',
+    attachmentLabel: '支持文件（可选，最大 2 MB）',
+    attachmentError: '附件必须小于 2 MB。',
+    errors: { submit: '无法提交报告。' },
+    success: '谢谢。我们已收到您的报告，并将尽快跟进。',
+    submitLabel: '提交报告',
+    submittingLabel: '正在发送…',
   },
 };
 

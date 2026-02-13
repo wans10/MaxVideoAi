@@ -38,6 +38,12 @@ const HEADER_COPY: Record<AppLocale, { title: string; effective: string; company
     companyLine: 'Empresa: MaxVideoAI',
     contactLabel: 'Contacto:',
   },
+  zh: {
+    title: '可接受使用政策',
+    effective: '生效日期：2025年10月28日',
+    companyLine: '公司：MaxVideoAI',
+    contactLabel: '联系方式：',
+  },
 };
 
 type AupBodyProps = { locale: AppLocale };

@@ -6,6 +6,7 @@ const LAYOUT_COPY: Record<AppLocale, { title: string; back: string }> = {
   en: { title: 'Legal', back: 'Back to homepage' },
   fr: { title: 'Mentions légales', back: "Retour à l'accueil" },
   es: { title: 'Centro legal', back: 'Volver al inicio' },
+  zh: { title: '法律中心', back: '返回首页' },
 };
 
 export default async function LegalLayout({ children }: { children: React.ReactNode }) {

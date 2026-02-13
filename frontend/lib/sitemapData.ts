@@ -29,7 +29,9 @@ const LOCALE_SITEMAP_PATHS: Record<AppLocale, string> = {
   en: '/sitemap-en.xml',
   fr: '/sitemap-fr.xml',
   es: '/sitemap-es.xml',
+  zh: '/sitemap-zh.xml',
 };
+
 
 const LOCALES: AppLocale[] = ['en', 'fr', 'es'];
 const MODEL_CONTENT_ROOT = path.join(CONTENT_ROOT, 'models');

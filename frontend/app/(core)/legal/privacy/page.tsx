@@ -40,6 +40,12 @@ const HEADER_COPY: Record<AppLocale, { title: string; versionLabel: string; effe
     effectiveLabel: 'Fecha de entrada en vigor',
     contactLabel: 'Contacto:',
   },
+  zh: {
+    title: '隐私政策',
+    versionLabel: '版本',
+    effectiveLabel: '生效日期',
+    contactLabel: '联系方式：',
+  },
 };
 
 type PrivacyBodyProps = {
@@ -90,13 +96,21 @@ export default async function PrivacyPage() {
               </Link>
               .
             </>
-          ) : (
+          ) : locale === 'es' ? (
             <>
               Responsable: MaxVideoAI (empresa individual en Francia). Dirección: consulta las{' '}
               <Link href="/legal/mentions" className="text-brand underline hover:text-brandHover">
                 menciones legales
               </Link>
               .
+            </>
+          ) : (
+            <>
+              控制方：MaxVideoAI（法国独资企业）。注册地址：见{' '}
+              <Link href="/legal/mentions" className="text-brand underline hover:text-brandHover">
+                法律声明
+              </Link>
+              。
             </>
           )}
         </p>

@@ -134,6 +134,34 @@ const HERO_COPY: Record<AppLocale, HeroCopy> = {
       subprocessors: 'Subencargados',
     },
   },
+  zh: {
+    title: '法律中心',
+    description: '我们的法律协议、隐私承诺和合规资源的权威来源。',
+    intro:
+      '此处的每份文档都反映了 MaxVideoAI 当前的生产条款。每当路由基础设施、数据保留或合作伙伴要求发生变化时，我们都会更新政策，并且最新的版本 ID 会直接在工作区中引用。使用此中心确认合同语言、审查次级处理者或下载合规团队的工件。',
+    columns: [
+      {
+        title: '保持知情',
+        body:
+          '订阅变更日志以获取发布级更新，并在需要实时事件上下文时查看状态页面。法律更新带有时间戳，并在每篇文章的顶部进行总结。',
+      },
+      {
+        title: '需要协议？',
+        body:
+          '企业客户可以通过发送电子邮件至 {{email}} 并附上公司详细信息和所需表格，索取签署的 DPA、安全问卷或 SOC 文档。',
+      },
+    ],
+    versionLabel: '版本',
+    links: {
+      terms: '服务条款',
+      privacy: '隐私政策',
+      cookies: 'Cookie 政策',
+      acceptableUse: '可接受使用政策',
+      takedown: '通知与下架',
+      mentions: '法律声明',
+      subprocessors: '次级处理者',
+    },
+  },
 };
 
 export default async function LegalIndexPage() {
