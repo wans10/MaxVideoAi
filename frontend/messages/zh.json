@@ -1,0 +1,2578 @@
+{
+  "nav": {
+    "brand": "MaxVideo AI",
+    "links": [
+      {
+        "key": "models",
+        "href": "/models"
+      },
+      {
+        "key": "examples",
+        "href": "/examples"
+      },
+      {
+        "key": "pricing",
+        "href": "/pricing"
+      },
+      {
+        "key": "workflows",
+        "href": "/workflows"
+      },
+      {
+        "key": "docs",
+        "href": "/docs"
+      },
+      {
+        "key": "blog",
+        "href": "/blog"
+      }
+    ],
+    "login": "登录",
+    "cta": "开始生成",
+    "linkLabels": {
+      "models": "模型",
+      "examples": "示例",
+      "pricing": "价格",
+      "workflows": "工作流",
+      "docs": "文档",
+      "blog": "博客"
+    },
+    "dropdown": {
+      "allModels": "所有模型",
+      "allExamples": "所有示例",
+      "viewAll": "查看全部",
+      "models": {
+        "items": {
+          "sora-2": "Sora 2",
+          "sora-2-pro": "Sora 2 Pro",
+          "veo-3-1": "Veo 3.1",
+          "kling-2-6-pro": "Kling 2.6 Pro",
+          "kling-3-pro": "Kling 3 Pro",
+          "seedance-1-5-pro": "Seedance 1.5 Pro",
+          "ltx-2": "LTX-2",
+          "ltx-2-fast": "LTX-2 Fast",
+          "pika-text-to-video": "Pika 2.2",
+          "wan-2-6": "Wan 2.6",
+          "minimax-hailuo-02-text": "MiniMax Hailuo 02"
+        }
+      },
+      "examples": {
+        "items": {
+          "sora": "Sora 2 Pro",
+          "sora-2": "Sora 2",
+          "sora-2-pro": "Sora 2 Pro",
+          "kling": "Kling 3 Pro",
+          "veo": "Veo 3.1",
+          "wan": "Wan 2.6",
+          "seedance": "Seedance 1.5 Pro",
+          "pika": "Pika 2.2",
+          "hailuo": "MiniMax Hailuo 02",
+          "veo-3-1": "Veo 3.1",
+          "kling-2-6-pro": "Kling 2.6 Pro",
+          "kling-3-pro": "Kling 3 Pro",
+          "seedance-1-5-pro": "Seedance 1.5 Pro",
+          "ltx-2": "LTX-2",
+          "pika-text-to-video": "Pika 2.2",
+          "wan-2-6": "Wan 2.6",
+          "minimax-hailuo-02-text": "MiniMax Hailuo 02",
+          "ltx-2-fast": "LTX-2 Fast"
+        }
+      },
+      "workflows": {
+        "items": {
+          "how": "工作原理",
+          "capabilities": "功能特性",
+          "examples": "示例",
+          "faq": "常见问题"
+        }
+      },
+      "docs": {
+        "items": {
+          "get-started": "快速开始",
+          "brand-safety": "品牌安全"
+        }
+      },
+      "blog": {
+        "items": {
+          "compare-ai-video-engines": "对比 AI 视频引擎",
+          "sora-2-sequenced-prompts": "Sora 2 序列提示词",
+          "veo-3-updates": "Veo 3 更新"
+        }
+      }
+    }
+  },
+  "footer": {
+    "links": [
+      {
+        "label": "博客",
+        "href": "/blog"
+      },
+      {
+        "label": "条款",
+        "href": "/legal/terms"
+      },
+      {
+        "label": "隐私",
+        "href": "/legal/privacy"
+      },
+      {
+        "label": "使用规范",
+        "href": "/legal/acceptable-use"
+      },
+      {
+        "label": "通知与下架",
+        "href": "/legal/takedown"
+      }
+    ],
+    "brandNote": "专业的 AI 视频独立中心 —— 生成前定价，紧跟最新引擎，为每个镜头提供统一的工作空间。支持 Sora 2, Veo 3.1, Pika 2.2, MiniMax Hailuo 02 等。商标归其所有者所有。",
+    "languageLabel": "语言",
+    "languages": [
+      {
+        "locale": "en",
+        "label": "English"
+      },
+      {
+        "locale": "fr",
+        "label": "Français"
+      },
+      {
+        "locale": "es",
+        "label": "Español (LatAm)"
+      },
+      {
+        "locale": "zh",
+        "label": "简体中文"
+      }
+    ],
+    "sections": {
+      "engines": {
+        "title": "AI 视频引擎",
+        "items": {
+          "sora2": "Sora 2",
+          "kling3pro": "Kling 3 Pro",
+          "wan2_6": "Wan 2.6",
+          "veo3_1": "Veo 3.1",
+          "ltx2": "LTX-2",
+          "seedance1_5pro": "Seedance 1.5 Pro"
+        }
+      },
+      "comparisons": {
+        "title": "热门对比",
+        "items": {
+          "kling3pro_vs_sora2": "Kling 3 Pro vs Sora 2",
+          "sora2_vs_veo3_1": "Sora 2 vs Veo 3.1",
+          "kling3pro_vs_wan2_6": "Kling 3 Pro vs Wan 2.6",
+          "ltx2_vs_veo3_1": "LTX-2 vs Veo 3.1",
+          "sora2_vs_wan2_6": "Sora 2 vs Wan 2.6",
+          "seedance1_5pro_vs_sora2": "Seedance 1.5 Pro vs Sora 2"
+        }
+      },
+      "examples": {
+        "title": "真实案例",
+        "items": {
+          "sora2": "Sora 2 案例",
+          "kling": "Kling 案例",
+          "veo3_1": "Veo 3.1 案例",
+          "all": "所有案例"
+        }
+      },
+      "product": {
+        "title": "产品",
+        "items": {
+          "generate": "生成",
+          "pricing": "价格",
+          "workflows": "工作流",
+          "docs": "文档",
+          "models": "所有模型"
+        }
+      },
+      "company": {
+        "title": "公司",
+        "items": {
+          "blog": "博客",
+          "about": "关于",
+          "contact": "联系我们",
+          "status": "服务状态"
+        }
+      },
+      "policies": {
+        "title": "政策"
+      }
+    },
+    "crawlerNote": "MaxVideoAI 允许 AI 爬虫 (GPTBot, OAI-SearchBot, Google-Extended, 和 CCBot) 索引公开模型页面和文档，以提高教育和研究的可见性。"
+  },
+  "home": {
+    "badges": [
+      "按需付费",
+      "生成前定价",
+      "始终保持最新"
+    ],
+    "hero": {
+      "title": "为每个镜头提供合适的引擎。",
+      "subtitle": "专业的 AI 视频，没有繁琐。生成前定价。适合您工作的一站式中心。",
+      "primaryCta": "开始生成",
+      "secondaryCta": "查看示例"
+    },
+    "worksWith": {
+      "label": "支持",
+      "brands": [
+        "Sora 2",
+        "Veo 3.1",
+        "LTX-2 Fast",
+        "LTX-2 Pro",
+        "Kling 2.6 Pro",
+        "Pika 2.2",
+        "MiniMax Hailuo 02",
+        "Kling 2.5",
+        "Wan 2.5",
+        "Nano Banana"
+      ],
+      "caption": "由独立中心提供支持。商标归其所有者所有。",
+      "availabilityNotice": "可用性可能因提供商而异；价格标签会自动刷新。"
+    },
+    "heroScreenshot": {
+      "title": "所有控制尽在掌握。",
+      "body": "合成器、实时定价、画廊栏和任务流都在一起，您可以调整提示词、查看输出并监控队列，而无需离开屏幕。",
+      "alt": "MaxVideo AI 工作区展示合成器、实时价格标签和画廊预览的单一仪表板。"
+    },
+    "proofTabs": [
+      {
+        "id": "workspace",
+        "label": "工作区",
+        "heading": "在我们每天使用的同一工作区中开始。",
+        "body": "选择一个引擎，设置时长和分辨率，合成器会显示该引擎所需的字段。无需等待名单，无需模型图。"
+      },
+      {
+        "id": "price",
+        "label": "价格",
+        "heading": "钱包定价在您按下生成之前更新。",
+        "body": "调整设置并在提交前查看实时的“本次渲染”标签。只有当渲染成功时才会扣除资金。"
+      },
+      {
+        "id": "tracking",
+        "label": "追踪",
+        "heading": "任务流自动追踪每一个输出。",
+        "body": "查看渲染结果，比较不同版本，并从画廊栏中下载完成的作品。"
+      }
+    ],
+    "whyCards": [
+      {
+        "title": "即用型产品，而非路线图。",
+        "body": "登录并使用我们内部运行的同一工作区 —— 定价、合成器、钱包和任务历史记录今天即可使用。"
+      },
+      {
+        "title": "钱包优先计费。",
+        "body": "一次充值，从标题栏监控支出，并在渲染失败时自动退款。"
+      },
+      {
+        "title": "所有引擎汇聚一处。",
+        "body": "在 Sora、Veo、Pika、MiniMax 和 Hunyuan 之间切换，无需处理仪表板或 API 密钥。"
+      }
+    ],
+    "ways": [
+      {
+        "title": "生成",
+        "description": "使用参考图、音频开关和特定于模型的控件进行提示 —— 所有这些都带有实时定价。",
+        "bullets": [
+          "实时价格标签随着您调整时长或分辨率而更新",
+          "上传图像参考或重用库中的资产",
+          "排队多次迭代并实时监控进度"
+        ]
+      },
+      {
+        "title": "审查与交付",
+        "description": "锁定最佳版本，获取下载链接，并在不离开工作区的情况下分享任务链接。",
+        "bullets": [
+          "画廊栏排列每个渲染结果以便快速比较",
+          "任务流将笔记、迭代和状态保存在一起",
+          "即时下载渲染结果、缩略图和元数据"
+        ]
+      }
+    ],
+    "waysSection": {
+      "eyebrow": "工作区",
+      "title": "一切都在工作区中进行。",
+      "subtitle": "合成器、钱包、任务历史和画廊并排显示，让您的团队保持一致。"
+    },
+    "examplesCallout": {
+      "eyebrow": "实时画廊",
+      "title": "看看每个引擎如何处理相同的简报。",
+      "subtitle": "观察真实的渲染围绕 CTA 旋转，并直接跳转到示例页面以克隆您自己项目的设置。",
+      "cta": "浏览实时示例"
+    },
+    "gallery": {
+      "title": "画廊",
+      "subtitle": "直接从实时工作区捕获 —— 悬停预览，点击展开。",
+      "caption": "为此渲染路由的引擎。",
+      "hoverLabel": "悬停循环预览",
+      "items": [
+        {
+          "id": "veo-teaser",
+          "label": "Veo 3 · 发布预告片",
+          "description": "带有活动揭示音频的叙事照明。",
+          "alt": "Google Veo 3 电影预告片。",
+          "meta": {
+            "slug": "veo-3-1",
+            "pricing": {
+              "engineId": "veo-3-1",
+              "durationSec": 8,
+              "resolution": "1080p",
+              "memberTier": "member"
+            }
+          },
+          "media": {
+            "videoSrc": "/assets/gallery/robot-look.mp4",
+            "posterSrc": "/hero/veo3.jpg",
+            "hasAudio": true
+          }
+        },
+        {
+          "id": "veo31-fast-demo",
+          "label": "Veo 3.1 Fast · 帧桥接",
+          "description": "使用 Veo 3.1 Fast 在第一帧和最后一帧之间进行 8 秒桥接。",
+          "alt": "Veo 3.1 Fast 过渡示例。",
+          "meta": {
+            "slug": "veo-3-1-fast",
+            "pricing": {
+              "engineId": "veo-3-1-fast",
+              "durationSec": 8,
+              "resolution": "720p",
+              "memberTier": "member"
+            }
+          },
+          "media": {
+            "videoSrc": "/assets/gallery/robot-eyes.mp4",
+            "posterSrc": "/hero/veo3.jpg",
+            "hasAudio": true
+          }
+        },
+        {
+          "id": "minimax-hailuo",
+          "label": "MiniMax Hailuo 02 · 概念草案",
+          "description": "启用提示词优化器，在主角渲染之前构建故事板剪辑。",
+          "alt": "MiniMax Hailuo Standard 概念动画。",
+          "meta": {
+            "slug": "minimax-hailuo-02-text",
+            "pricing": {
+              "engineId": "minimax-hailuo-02-text",
+              "durationSec": 6,
+              "resolution": "768P",
+              "memberTier": "member"
+            }
+          },
+          "media": {
+            "videoSrc": "/hero/minimax-video01.mp4",
+            "posterSrc": "/hero/minimax-video01.jpg",
+            "hasAudio": true
+          }
+        }
+      ]
+    },
+    "pricing": {
+      "badge": "定价",
+      "title": "入门积分解锁完整工作区。",
+      "body": "充值 $10 并在几秒钟内运行您的第一次渲染。每当您需要更多钱包余额时，添加 $10 / $25 / $50。",
+      "link": "前往定价"
+    },
+    "trust": {
+      "badge": "运营",
+      "points": [
+        "独立中心 — 接入现有提供商账户或使用我们的账户。",
+        "渲染失败自动退款，并在分项收据上注明。",
+        "每日状态邮件让团队随时掌握支出和队列健康状况。",
+        "商标和徽标归其所有者所有；我们负责任地路由。"
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "针对最常见问题的简短解答。",
+      "items": [
+        {
+          "q": "Sora 2 在欧盟可用吗？",
+          "a": "Sora 2 的可用性有限。MaxVideoAI 今天将您的简报路由到支持的引擎，并保留 Sora-ready 的预设以备后用。"
+        },
+        {
+          "q": "我可以添加音频吗？",
+          "a": "可以。主页上展示的引擎支持合成器中的音频开关。启用音频时，实时价格会更新。"
+        },
+        {
+          "q": "定价如何运作？",
+          "a": "您在渲染前会看到实时的“本次渲染”价格标签。充值 $10 开始，随时充值。每项工作都有分项收据。"
+        },
+        {
+          "q": "退款政策是什么？",
+          "a": "失败的渲染会自动退款到您的钱包，并附有分项收据。您始终拥有完全的支出控制权。"
+        }
+      ]
+    },
+    "priceChipSuffix": "无订阅。按需付费。",
+    "meta": {
+      "title": "多引擎 AI 视频生成器 – 按需付费 | MaxVideoAI",
+      "description": "在一个工作区中使用 Sora 2、Veo 3.1 和 Kling 创建 AI 视频。使用相同的提示词并排比较引擎，然后立即生成。"
+    },
+    "compare": {
+      "title": "一目了然比较引擎",
+      "subtitle": "最大时长 · 音频 · 最佳用途",
+      "ariaPrev": "滚动到上一个引擎卡片",
+      "ariaNext": "滚动到下一个引擎卡片",
+      "ariaPrefix": "查看预设",
+      "seePresets": "查看预设 →",
+      "statLabels": {
+        "max": "最大",
+        "audio": "音频",
+        "bestFor": "最佳用途"
+      }
+    }
+  },
+  "comparePage": {
+    "meta": {
+      "title": "{left} vs {right} — 规格与定价 | MaxVideoAI",
+      "description": "比较 {left} 和 {right}。查看详细的规格、定价和功能比较，以选择适合您的视频 AI 引擎。"
+    },
+    "hero": {
+      "eyebrow": "引擎比较",
+      "title": "{left} <span class=\"text-border\">vs</span> {right}",
+      "subtitle": "并排比较以找到适合您项目的工具。",
+      "back": "返回引擎"
+    },
+    "table": {
+      "specs": "规格",
+      "pricing": "定价",
+      "features": "功能",
+      "provider": "提供商",
+      "releaseDate": "发布日期",
+      "resolution": "分辨率",
+      "duration": "时长",
+      "frameRate": "帧率",
+      "aspectRatio": "宽高比",
+      "costPerRun": "每次运行成本",
+      "costPerSecond": "每秒成本",
+      "commercialUse": "商业用途",
+      "apiAvailable": "API 可用",
+      "yes": "是",
+      "no": "否",
+      "unknown": "—"
+    },
+    "engineLink": "查看 {name} 详细信息 →",
+    "faq": {
+      "title": "关于这些引擎",
+      "entries": [
+        {
+          "question": "哪个更适合真实感？",
+          "answer": "查看我们在每个引擎页面上的示例视频以比较质量。"
+        },
+        {
+          "question": "定价准确吗？",
+          "answer": "是的，显示的定价是我们当前的按需付费率。"
+        }
+      ]
+    },
+    "cta": {
+      "title": "准备好开始了吗？",
+      "subtitle": "直接进入工作区并以此价格运行这些引擎。",
+      "primary": "立即尝试 {left}",
+      "secondary": "立即尝试 {right}"
+    }
+  },
+  "pricing": {
+    "meta": {
+      "title": "AI 视频生成器定价 (Sora 2, Veo 3, Pika) | MaxVideoAI",
+      "description": "比较 Sora 2、Veo 3 和 Pika 的每一秒价格。$10 起购，按需付费。无订阅，无隐藏费用。"
+    },
+    "hero": {
+      "kicker": "定价",
+      "title": "生成前定价，仅此一家。",
+      "subtitle": "没有“积分”数学题。在按下生成之前以美元查看成本。$10 起购，按需付费。无订阅。",
+      "cta": "购买 $10 额度"
+    },
+    "estimator": {
+      "title": "估算您的渲染成本",
+      "engineLabel": "引擎",
+      "resolutionLabel": "分辨率",
+      "durationLabel": "时长",
+      "costLabel": "估算成本:",
+      "note": "实际价格可能略有不同。您只需为成功的生成付费。",
+      "formats": {
+        "hd": "HD (720p)",
+        "fhd": "Full HD (1080p)",
+        "uhd": "4K (2160p)"
+      }
+    },
+    "comparison": {
+      "title": "简单的按需付费定价",
+      "columns": {
+        "starter": {
+          "title": "入门版",
+          "price": "$10",
+          "period": "一次性充值",
+          "features": [
+            "访问所有模型 (Sora, Veo, Pika)",
+            "包括商业使用权",
+            "无水印",
+            "同时排队 3 个任务",
+            "标准支持"
+          ],
+          "cta": "开始使用"
+        },
+        "pro": {
+          "title": "专业版",
+          "price": "无需订阅",
+          "subtitle": "只需充值更多即可解锁批量功能",
+          "features": [
+            "所有入门版功能",
+            "优先队列访问",
+            "同时排队 10 个以上任务",
+            "批量导出元数据",
+            "优先支持"
+          ],
+          "cta": "充值 $50"
+        }
+      }
+    },
+    "faq": {
+      "title": "定价常见问题",
+      "description": "关于计费、退款和积分的诚实回答。",
+      "items": [
+        {
+          "question": "积分会过期吗？",
+          "answer": "不会。只要您的账户处于活动状态，您的余额就归您所有。我们不会按月清零。"
+        },
+        {
+          "question": "如果渲染失败怎么办？",
+          "answer": "我们自动退款。如果引擎在处理过程中崩溃或超时，资金会在几分钟内返回您的钱包。"
+        },
+        {
+          "question": "什么是“生成前定价”？",
+          "answer": "大多数平台向您出售积分，然后让您猜测每个视频的成本。我们先计算美元成本，并在您点击生成按钮之前将其显示在按钮上。"
+        },
+        {
+          "question": "有教育折扣吗？",
+          "answer": "有的。如果您是经过验证的学生或研究人员，通过您的 .edu 电子邮件联系我们以获得额外积分。"
+        },
+        {
+          "question": "我可以用一种货币支付并以另一种货币查看吗？",
+          "answer": "这是我们路线图上的下一个项目。目前，所有计费和显示均为美元，但我们接受全球大多数卡。"
+        }
+      ]
+    },
+    "refundPolicy": {
+      "title": "我们的退款承诺",
+      "body": "我们之所以建立 MaxVideoAI，是因为我们厌倦了为失败的渲染付费。如果您对生成的技术质量不满意（故障、伪影、错误时长），请将其标记为“报告问题”，我们将进行审核以进行退款。渲染失败总是自动退款。"
+    },
+    "table": {
+      "engine": "引擎",
+      "type": "类型",
+      "input": "输入",
+      "duration": "时长",
+      "res": "分辨率",
+      "price": "价格 (预估)",
+      "notes": "备注",
+      "types": {
+        "t2v": "文生视频",
+        "i2v": "图生视频",
+        "v2v": "视频生视频"
+      },
+      "inputs": {
+        "text": "文本",
+        "image": "图像",
+        "video": "视频",
+        "audio": "音频"
+      },
+      "freeResearch": "免费研究预览",
+      "comingSoon": "即将推出"
+    },
+    "memberSavings": {
+      "title": "会员优惠",
+      "description": "根据您过去 30 天的消费自动解锁折扣等级。",
+      "tiers": {
+        "member": {
+          "name": "会员",
+          "spend": "$0 / 月",
+          "discount": "标准费率"
+        },
+        "plus": {
+          "name": "Plus",
+          "spend": "消费 $50+",
+          "discount": "九折优惠"
+        },
+        "pro": {
+          "name": "Pro",
+          "spend": "消费 $200+",
+          "discount": "八折优惠"
+        }
+      },
+      "note": "等级每天更新。无需订阅费用。"
+    }
+  },
+  "workflows": {
+    "meta": {
+      "title": "AI 视频工作流：实时定价生成变体 | MaxVideoAI",
+      "description": "在一个工作区中生成 AI 视频：选择引擎，设置时长/分辨率/比例，预览价格，生成最多 4 个变体，复制提示词并下载。"
+    },
+    "hero": {
+      "title": "不仅仅是生成。",
+      "subtitle": "MaxVideoAI 专为端到端制作而设计。从故事板到最终渲染，让您的团队保持同步。"
+    },
+    "features": [
+      {
+        "title": "统一的合成器",
+        "body": "在所有引擎中使用一个界面。相同的提示词、相同的设置、相同的热键。在模型之间切换而不丢失上下文。"
+      },
+      {
+        "title": "版本控制",
+        "body": "每个渲染都是“镜头”的一部分。跟踪提示词更改、种子变体和高档版本，而不干扰您的图库。"
+      },
+      {
+        "title": "协作（即将推出）",
+        "body": "与您的团队共享项目链接。在特定帧上发表评论，并批准最终剪辑以供下载。"
+      },
+      {
+        "title": "品牌套件（即将推出）",
+        "body": "存储您的品牌颜色、徽标和字体，以便在支持它的模型中进行叠加和介绍。"
+      }
+    ],
+    "integrations": {
+      "title": "适合您的流程",
+      "body": "导出到 Premiere、After Effects 或 DaVinci Resolve。我们将元数据包含在与 NLE 兼容的 JSON sidecar 文件中，因此您永远不会丢失提示词。"
+    },
+    "cta": {
+      "text": "开始创建工作流",
+      "button": "启动工作区"
+    }
+  },
+  "models": {
+    "title": "AI 视频模型：功能与规格",
+    "description": "比较 MaxVideoAI 工作区中可用的所有 AI 视频引擎的规格、优势和限制。",
+    "hero": {
+      "title": "了解您的模型。",
+      "subtitle": "我们对每台引擎进行基准测试，以便您知道该使用哪一台。比较规格、查看功能并找到您需要的版本。",
+      "cta": "比较模型"
+    },
+    "grid": {
+      "title": "可用模型",
+      "pills": [
+        "全部",
+        "文生视频",
+        "图生视频",
+        "音频",
+        "快速"
+      ]
+    },
+    "cardAriaPrefix": "查看详情：",
+    "cardCtaLabel": "查看详情 →",
+    "engineTypeLabels": {
+      "textImage": "文生视频 + 图生视频",
+      "text": "文生视频",
+      "image": "图像生成 · 文本 & 图生图",
+      "default": "AI 视频引擎"
+    },
+    "availabilityLabels": {
+      "available": "可用",
+      "limited": "受限",
+      "waitlist": "等候名单",
+      "paused": "暂停"
+    },
+    "meta": {
+      "sora-2": {
+        "displayName": "OpenAI Sora 2",
+        "description": "文生视频和原生音频混音，通过 Fal 路由。",
+        "priceBefore": "生成工作区内的实时定价。",
+        "versionLabel": "v2"
+      },
+      "sora-2-pro": {
+        "displayName": "OpenAI Sora 2 Pro",
+        "description": "具有 1792×1024 输出和图生视频控制的电影级对口型，适合高级团队。",
+        "priceBefore": "生成工作区内的实时定价。",
+        "versionLabel": "Pro"
+      },
+      "veo-3-1": {
+        "displayName": "Google Veo 3.1",
+        "description": "具有多图像主体指导的参考视频控制。",
+        "priceBefore": "生成工作区内的实时定价。",
+        "versionLabel": "Veo 3.1"
+      },
+      "veo-3-1-fast": {
+        "displayName": "Google Veo 3.1 Fast",
+        "description": "运行快速文本提示词或带有可选音频的单个参考图像动画。",
+        "priceBefore": "生成工作区内的实时定价。",
+        "versionLabel": "Veo 3.1 Fast"
+      },
+      "veo-3-1-first-last": {
+        "displayName": "Google Veo 3.1 First/Last Frame",
+        "description": "上传第一帧和最后一帧，描述动作，并用 Veo 3.1 或 Veo 3.1 Fast 连接它们。",
+        "priceBefore": "生成工作区内的实时定价。",
+        "versionLabel": "First/Last"
+      },
+      "pika-text-to-video": {
+        "displayName": "Pika 2.2 · 文生视频 & 图生视频",
+        "description": "来自提示词或上传静止图像的社交优先循环，具有快速迭代。",
+        "priceBefore": "生成工作区内的实时定价。",
+        "versionLabel": "2.2"
+      },
+      "minimax-hailuo-02-text": {
+        "displayName": "MiniMax Hailuo 02 Standard · 文生视频 & 图生视频",
+        "description": "启用提示词优化器的草稿或参考驱动的动画。",
+        "priceBefore": "生成工作区内的实时定价。",
+        "versionLabel": "Standard"
+      },
+      "ltx-2-fast": {
+        "displayName": "LTX-2 Fast",
+        "description": "6–20秒 文生视频或图生视频，带有原生音频，最高 4K。",
+        "priceBefore": "生成工作区内的实时定价。",
+        "versionLabel": "Fast"
+      },
+      "ltx-2": {
+        "displayName": "LTX-2 Pro",
+        "description": "高保真 6–10秒 片段，带音频，最高 4K，25/50 fps。",
+        "priceBefore": "生成工作区内的实时定价。",
+        "versionLabel": "Pro"
+      },
+      "kling-2-6-pro": {
+        "displayName": "Kling 2.6 Pro",
+        "description": "带有原生对话和环境音的电影级短片。",
+        "priceBefore": "生成工作区内的实时定价。",
+        "versionLabel": "v2.6 Pro"
+      },
+      "title": "AI 视频模型：价格与限制 | MaxVideoAI",
+      "description": "比较 AI 视频模型，查看实时价格和真实限制，然后选择两个引擎打开并排页面，查看规格、提示词和可克隆示例。"
+    },
+    "note": "",
+    "detail": {
+      "backLabel": "← 返回",
+      "examplesLinkLabel": "查看示例",
+      "pricingLinkLabel": "比较价格",
+      "overviewTitle": "概览",
+      "overview": {
+        "brand": "品牌",
+        "engineId": "引擎 ID",
+        "slug": "Slug",
+        "logoPolicy": "Logo 政策",
+        "platformPrice": "生成工作区内的实时定价。"
+      },
+      "logoPolicies": {
+        "logoAllowed": "允许使用 Logo",
+        "textOnly": "仅文字 (字标)"
+      },
+      "promptsTitle": "提示词思路",
+      "faqTitle": "常见问题",
+      "buttons": {
+        "pricing": "打开生成器",
+        "launch": "启动工作区"
+      },
+      "breadcrumb": {
+        "home": "首页",
+        "models": "模型"
+      }
+    },
+    "listing": {
+      "hero": {
+        "title": "比较 AI 视频模型的实时定价",
+        "subtitle": "实时 $/s + 真实限制 + 示例 —— 然后并排比较两个引擎。",
+        "bullets": [
+          "点击任何模型以查看完整规格、提示词预设和示例。",
+          "并排比较引擎的规格和提示词"
+        ],
+        "compareLabel": "进入比较模式"
+      },
+      "legacyToggleLabel": "显示旧版模型",
+      "grid": {
+        "srTitle": "您可以在 MaxVideoAI 上比较的 AI 视频和图像模型",
+        "bridgeText": "并排比较 AI 视频和图像引擎，查看实时定价、真实限制和可克隆的示例。"
+      },
+      "quickCompare": {
+        "title": "快速比较快捷方式",
+        "subtitle": "选择一个流行的对比以预加载比较模式（或打开比较页面）。",
+        "shortcuts": [
+          "电影级 vs 广告就绪",
+          "电影级 vs 控制",
+          "广告 vs 动作",
+          "高级 vs 快速",
+          "广告 vs 预算",
+          "动作 vs 速度"
+        ]
+      },
+      "chooseOutcome": {
+        "title": "按结果选择",
+        "subtitle": "从您想要的结果开始 —— 然后选择一个引擎。",
+        "tiles": [
+          {
+            "title": "电影级 / 主角镜头",
+            "description": "角色连续性，电影级物理效果，高级外观。"
+          },
+          {
+            "title": "广告与营销剪辑",
+            "description": "精确构图，一致的运镜，快速变体。"
+          },
+          {
+            "title": "快速迭代（廉价测试）",
+            "description": "在提交之前快速尝试多个版本。"
+          },
+          {
+            "title": "风格化 / 社交编辑",
+            "description": "风格化动作，循环，社交优先的外观。"
+          },
+          {
+            "title": "高分辨率 / 4K 交付物",
+            "description": "当最高分辨率至关重要时。"
+          },
+          {
+            "title": "故事板与静态优先工作流",
+            "description": "在动作之前准备帧和参考。"
+          }
+        ]
+      },
+      "reliability": {
+        "title": "MaxVideoAI 如何保持可靠",
+        "subtitle": "保持您的比较一致且为生产做好准备的基本要素。",
+        "items": [
+          {
+            "title": "实时定价",
+            "body": "我们跟踪 $/s，以便您在生成之前看到真实成本。"
+          },
+          {
+            "title": "真实限制",
+            "body": "时长、最大分辨率、格式... 按引擎显示。"
+          },
+          {
+            "title": "可克隆的示例",
+            "body": "从真实渲染中复制提示词和设置。"
+          }
+        ],
+        "faq": [
+          {
+            "question": "定价是如何计算的",
+            "answer": "我们根据当前的公开定价和我们的内部标准化显示每个引擎的预估 $/s。最终成本可能因提供商层级和生成设置而异。"
+          },
+          {
+            "question": "为什么每个引擎的最大时长不同",
+            "answer": "最大时长取决于提供商限制、层级（快速/专业）和生成模式（文生视频、图生视频、扩展/继续）。我们显示每个引擎的最新已知限制。"
+          },
+          {
+            "question": "比较模式显示什么（规格 + 提示词 + 示例）",
+            "answer": "比较模式打开一个并排页面，显示关键规格、优势和示例渲染。可用时，它使用相同的提示词模板，以便您可以更公平地判断输出。"
+          },
+          {
+            "question": "如何使用模型页面（完整详情）",
+            "answer": "每个模型页面都包含完整规格、支持的模式（T2V/I2V/V2V）和一个可以复制以重现结果或快速迭代的提示词部分。"
+          },
+          {
+            "question": "数据多久更新一次",
+            "answer": "随着提供商更改其发布的信息以及我们测试新版本，我们会更新模型限制和定价参考。如果有什么看起来不对劲，模型页面会注明最后刷新时间。"
+          }
+        ]
+      },
+      "cta": {
+        "title": "几秒钟内开始生成",
+        "subtitle": "在上面选择一个模型，然后生成 —— 或者在提交之前浏览经过验证的提示词和输出。",
+        "pills": [
+          "实时定价",
+          "克隆提示词",
+          "并排比较"
+        ],
+        "microcopy": "相同的提示词预设 • 实时定价 • 并排比较",
+        "primaryLabel": "立即生成",
+        "secondaryLabel": "浏览示例"
+      }
+    },
+    "gallery": {
+      "compareLabel": "比较",
+      "compareTooltip": "选择进行比较",
+      "compareAria": "选择 {engine} 进行比较",
+      "strengthsLabel": "优势",
+      "stats": {
+        "from": "起价",
+        "maxDurShort": "最大时长",
+        "maxDurLong": "最大时长",
+        "maxResShort": "最大分辨率",
+        "maxResLong": "最大分辨率",
+        "typeShort": "类型",
+        "typeLong": "类型"
+      },
+      "audioAvailableLabel": "支持音频",
+      "filters": {
+        "sort": {
+          "label": "排序",
+          "options": {
+            "featured": "精选",
+            "score": "评分",
+            "price": "价格",
+            "duration": "时长",
+            "resolution": "分辨率",
+            "name": "名称"
+          }
+        },
+        "mode": {
+          "label": "模式",
+          "options": {
+            "all": "全部",
+            "t2v": "文生视频",
+            "i2v": "图生视频",
+            "v2v": "视频生视频",
+            "firstLast": "首帧/尾帧",
+            "extend": "扩展",
+            "lipSync": "对口型",
+            "audio": "音频"
+          }
+        },
+        "format": {
+          "label": "格式",
+          "options": {
+            "all": "全部",
+            "720": "720p+",
+            "1080": "1080p+",
+            "2160": "4K"
+          }
+        },
+        "duration": {
+          "label": "时长",
+          "options": {
+            "all": "全部",
+            "8": "≤8s",
+            "10-15": "10–15s",
+            "20": "20s+"
+          }
+        },
+        "price": {
+          "label": "价格",
+          "options": {
+            "all": "全部",
+            "cheap": "$",
+            "mid": "$$",
+            "premium": "$$$"
+          }
+        },
+        "age": {
+          "label": "模型",
+          "options": {
+            "latest": "最新",
+            "legacy": "旧版",
+            "all": "全部"
+          }
+        },
+        "clear": "清除筛选"
+      },
+      "compareBar": {
+        "selectedTemplate": "已选: {left} + {right}",
+        "selectTwo": "选择两个引擎进行比较",
+        "clear": "清除",
+        "compare": "比较"
+      },
+      "capabilityTooltips": {
+        "T2V": "文生视频",
+        "I2V": "图生视频",
+        "V2V": "视频生视频",
+        "First/Last": "第一帧 / 最后一帧",
+        "Extend": "扩展 / 继续"
+      },
+      "scoreLabels": {
+        "fidelity": "提示词遵循度",
+        "visualQuality": "视觉质量",
+        "motion": "动作真实感",
+        "consistency": "时间一致性",
+        "anatomy": "人体保真度",
+        "textRendering": "文本 & UI 清晰度",
+        "lipsyncQuality": "音频 & 对口型",
+        "sequencingQuality": "多镜头排序",
+        "controllability": "可控性",
+        "speedStability": "速度 & 稳定性",
+        "pricing": "定价"
+      },
+      "valueSentence": {
+        "template": "最适合 {useCase}，在 {capabilities} 工作流中具有很强的 {strengths}。",
+        "strengthsFallback": "可靠的输出",
+        "capabilityFallback": "AI 视频",
+        "conjunction": "和",
+        "useCases": {
+          "sora-2": "电影级场景和角色连续性",
+          "sora-2-pro": "影楼级电影镜头和英雄场景",
+          "veo-3-1": "广告就绪镜头和精确构图控制",
+          "veo-3-1-fast": "快速广告剪辑和快速迭代",
+          "veo-3-1-first-last": "带有固定帧的故事板驱动镜头",
+          "kling-2-6-pro": "动作逼真的电影剪辑",
+          "kling-2-5-turbo": "具有稳定提示词遵循度的快速迭代",
+          "wan-2-6": "具有清晰过渡的结构化提示词",
+          "wan-2-5": "预算友好的提示词测试",
+          "pika-text-to-video": "风格化的社交优先剪辑",
+          "ltx-2": "具有响应动作的快速迭代",
+          "ltx-2-fast": "快速测试和迭代",
+          "minimax-hailuo-02-text": "预算友好的概念测试",
+          "nano-banana": "故事板和静态优先工作流",
+          "nano-banana-pro": "活动静态图和以排版为重点的编辑"
+        },
+        "capabilityKeywords": {
+          "T2V": "文生视频",
+          "I2V": "图生视频",
+          "V2V": "视频生视频",
+          "Lip sync": "对口型",
+          "Audio": "原生音频",
+          "First/Last": "首帧/尾帧控制",
+          "Extend": "扩展工作流"
+        }
+      }
+    }
+  },
+  "aiVideoEngines": {
+    "meta": {
+      "title": "AI 视频引擎 — 比较 Sora, Veo, Pika | MaxVideoAI",
+      "description": "比较 Sora 2, Veo 3, Pika, 和 MiniMax 引擎在欧洲的可用性、延迟和合规路径。"
+    },
+    "hero": {
+      "title": "在欧洲运行 AI 视频生成器 — Sora 2, Veo 3, Pika 等",
+      "intro": "MaxVideoAI 保持电影级文生视频引擎的合规性、受监控状态，并为欧洲团队做好生产准备。使用此中心了解可用性，比较创意权衡，并在第一天就以正确的护栏启动项目。",
+      "secondary": "不确定选择哪个模型？阅读我们的 {{article:对比文章}}。"
+    },
+    "sections": [
+      {
+        "title": "Sora 2 可用性及替代方案",
+        "body": "Sora 2 仍然处于分阶段推出状态，因此 MaxVideoAI 处理验证线索、区域合规性以及容量激增时的预测路由。制作人可以将故事板与 {{sora:Sora 2 参考项目}} 进行基准测试，并在周转速度比前沿保真度更重要时切换到 Sora 2 Pro 预设或 Veo 3 序列。我们记录提示词结构、素材批准和后期制作最佳实践，以便每个简报在保持准时发布的同时符合 OpenAI 的审查标准。区域制作人还会收到每两周一次的可用性说明，涵盖音频支持、帧长度和受监管行业的合规可追溯性。"
+      },
+      {
+        "title": "Veo 3: 为创作者打造的电影级文生视频",
+        "body": "Veo 3.1 弥合了故事板准确性和抛光动作之间的差距，也就是当社交或广告交付物需要画外音同步时。我们的路由保持延迟可预测，并让导演在预订工作室时间之前比较快速预设与长运行层级。在 {{veo:Veo 3.1 概览}} 上查看最新的护栏、纵横比和旁白就绪示例，或者在迭代速度优于音频或帧数时点击 Fast 变体。我们还在工作区内展示变更日志，以便编辑可以看到动作控制、音频保真度或政策说明在版本之间何时调整。"
+      },
+      {
+        "title": "Pika 2.2 适合快速社交内容",
+        "body": "当团队需要有趣的循环或短视频编辑时，Pika 2.2 以一小部分预算提供多纵横比输出。MaxVideoAI 公开了精选预设，因此编辑可以在不离开工作区的情况下从垂直 Reels 跳转到方形产品镜头。在我们的 {{pika:Pika 快速入门指南}} 上并排比较文生视频和图生视频模式，并重用已获准用于品牌安全活动的提示词库。每日质量检查通过标记样式漂移或伪影，让您知道何时重新生成、升级或移交给动画师进行改进。"
+      },
+      {
+        "title": "MaxVideoAI 如何路由 Fal.ai 引擎",
+        "body": "Fal.ai 为 MaxVideoAI 背后的多引擎路由骨干提供支持，让我们能够在爆发到容量的同时向创意主管展示一致的界面。我们的编排层保持提示词的可移植性，记录每个渲染，并公开诊断信息，以便您知道何时重试或移交给另一个引擎，如 {{veoFast:Veo 3.1 Fast}} 或 {{hailuo:MiniMax Hailuo}} 以获得风格化输出。团队还可以获得在一个工作区中的费率卡、审计跟踪和区域合规性说明，自动化剧本解释了当需求达到顶峰时如何提升优先级或交换渲染区域。"
+      }
+    ],
+    "comparison": {
+      "title": "比较顶级视频生成器",
+      "intro": "无论您需要前沿保真度还是预算友好的循环，MaxVideoAI 都能让每个引擎为生产工作负载做好准备。",
+      "cards": [
+        {
+          "label": "Sora 2",
+          "title": "保真度优先",
+          "points": [
+            "带有原生音频的前沿视频模型",
+            "严格的审查循环，较长的排队时间",
+            "适合英雄活动和电影级简报"
+          ]
+        },
+        {
+          "label": "Veo 3.1",
+          "title": "电影级速度",
+          "points": [
+            "将故事板保真度与快速迭代相结合",
+            "在标准和快速队列之间切换",
+            "适合采访、广告和解说视频的音频就绪"
+          ]
+        },
+        {
+          "label": "Pika 2.2",
+          "title": "快速社交循环",
+          "points": [
+            "快速文生视频或图生视频渲染",
+            "适合 Reels、预告片和有趣的概念",
+            "适合实验的预算友好积分"
+          ]
+        }
+      ]
+    },
+    "faqTitle": "AI 视频路由常见问题",
+    "faq": [
+      {
+        "question": "MaxVideoAI 支持 Fal.ai 引擎的欧洲计费吗？",
+        "answer": "是的。我们以欧元或英镑处理发票，并将其映射到 Fal.ai 使用情况，以便财务团队无需美国子公司或预付卡变通方案即可核对支出。"
+      },
+      {
+        "question": "团队能多快启动 Sora 2 项目？",
+        "answer": "大多数创意团队在两个工作日内开始提示。我们准备好入职模板，并在 Sora 访问最终确定期间提供后备 Veo 或 Pika 预设。"
+      },
+      {
+        "question": "我可以在不刷新文档的情况下监控模型更改吗？",
+        "answer": "MaxVideoAI 工作区实时突出显示延迟、输出限制和政策更新，因此制作人知道何时重试或转向替代引擎。"
+      }
+    ],
+    "cta": {
+      "body": "正在寻找序列化提示词配方？阅读 {{blog:MaxVideoAI 博客}} 上的最新指南，了解品牌故事讲述演练和引擎更新。"
+    }
+  },
+  "examples": {
+    "sortLabel": "排序",
+    "countLabel": "精选渲染",
+    "engineFilterLabel": "引擎",
+    "engineFilterAllLabel": "全部",
+    "hero": {
+      "title": "您可以克隆的 AI 视频示例。",
+      "subtitle": "悬停以循环播放，点击以展开。每个剪辑预览您可以在 MaxVideo AI 中路由的动作和风格。",
+      "body": "浏览使用 Sora 2, Veo 3.1, Pika 2.2, Kling, Wan 等生成的 AI 视频示例。每个剪辑显示提示词、格式和时长，因此您可以在一个画廊中比较不同引擎如何处理运镜、产品镜头、自拍和电影故事讲述。"
+    },
+    "items": [
+      {
+        "title": "Sora 2 电影级",
+        "engine": "Sora 2 · 文生视频 · 16:9",
+        "description": "捕捉大气照明和视差的电影级动作通道。",
+        "alt": "Sora 2 示例剪辑。",
+        "meta": {
+          "slug": "sora-2",
+          "pricing": {
+            "engineId": "sora-2",
+            "durationSec": 10,
+            "resolution": "1080p",
+            "memberTier": "member"
+          }
+        },
+        "media": {
+          "videoSrc": "/hero/sora2.mp4",
+          "aspectRatio": "16:9"
+        }
+      },
+      {
+        "title": "Veo 3 品牌飞越",
+        "engine": "Veo 3.1 · 图生视频 · 16:9",
+        "description": "强调相机控制的深度丰富品牌飞越。",
+        "alt": "Veo 3 示例剪辑。",
+        "meta": {
+          "slug": "veo-3-1",
+          "pricing": {
+            "engineId": "veo-3-1",
+            "durationSec": 8,
+            "resolution": "1080p",
+            "memberTier": "member"
+          }
+        },
+        "media": {
+          "videoSrc": "/hero/veo3.mp4",
+          "aspectRatio": "16:9"
+        }
+      },
+      {
+        "title": "Veo 3.1 Fast 故事板通道",
+        "engine": "Veo 3.1 Fast · 文生视频 · 16:9",
+        "description": "带有可选环境音的快速队列渲染以预览动作。",
+        "alt": "Veo 3.1 Fast 示例剪辑。",
+        "meta": {
+          "slug": "veo-3-1-fast",
+          "pricing": {
+            "engineId": "veo-3-1-fast",
+            "durationSec": 8,
+            "resolution": "720p",
+            "memberTier": "member"
+          }
+        },
+        "media": {
+          "videoSrc": "/hero/veo3.mp4",
+          "aspectRatio": "16:9"
+        }
+      },
+      {
+        "title": "Pika 2.2 社交循环",
+        "engine": "Pika 2.2 · 文生视频 · 16:9",
+        "description": "带有风格化动作口音的快节奏社交循环。",
+        "alt": "Pika 2.2 示例剪辑。",
+        "meta": {
+          "slug": "pika-text-to-video",
+          "pricing": {
+            "engineId": "pika-text-to-video",
+            "durationSec": 8,
+            "resolution": "1080p",
+            "memberTier": "member"
+          }
+        },
+        "media": {
+          "videoSrc": "/hero/pika-22.mp4",
+          "aspectRatio": "16:9"
+        }
+      },
+      {
+        "title": "MiniMax Hailuo 概念通道",
+        "engine": "MiniMax Hailuo 02 · 文/图生视频 · 16:9",
+        "description": "由单个参考帧驱动的动画概念艺术通道。",
+        "alt": "MiniMax Hailuo Standard 示例剪辑。",
+        "meta": {
+          "slug": "minimax-hailuo-02-text",
+          "pricing": {
+            "engineId": "minimax-hailuo-02-text",
+            "durationSec": 10,
+            "resolution": "768P",
+            "memberTier": "member"
+          }
+        },
+        "media": {
+          "videoSrc": "/hero/minimax-video01.mp4",
+          "aspectRatio": "16:9"
+        }
+      }
+    ],
+    "cta": "生成类似视频"
+  },
+  "docs": {
+    "meta": {
+      "title": "文档 — 入职、品牌安全、退款 & API Webhooks",
+      "description": "从此开始了解入职、价格体系和退款。了解品牌安全过滤器并查看 webhook/API 参考。更深入的指南位于经过身份验证的工作区中。",
+      "imageAlt": "文档 — MaxVideoAI"
+    },
+    "hero": {
+      "title": "文档",
+      "subtitle": "从此开始了解入职、品牌安全、合作须知和退款政策。更深入的集成指南位于经过身份验证的工作区中。"
+    },
+    "toc": {
+      "title": "本页内容",
+      "onboarding": "入职",
+      "pricing": "价格体系",
+      "refunds": "退款",
+      "safety": "品牌安全",
+      "api": "API 参考",
+      "library": "库"
+    },
+    "sections": [
+      {
+        "title": "简介",
+        "items": [
+          "填写一次品牌简介，以便保存的默认值和路由提示适用于每个人。",
+          "分享基调、背景和交付物，以便每个队友都可以在无需额外往返的情况下进行渲染。"
+        ]
+      },
+      {
+        "title": "价格体系",
+        "items": [
+          "在渲染之前预览确切价格。价格标签随时长、分辨率和自动折扣而更新。",
+          "入门积分 ($10) 和滚动会员状态 (Member / Plus / Pro) 每天更新。"
+        ]
+      },
+      {
+        "title": "退款",
+        "items": [
+          "如果渲染失败，您的钱包会在几分钟内自动退款，并且作业包含简短的事故说明。",
+          "分项收据列出引擎、时长、分辨率和作业 ID —— 易于移交给财务。",
+          {
+            "type": "link",
+            "before": "有关法律详细信息，请参阅 ",
+            "terms": "条款",
+            "and": " 和 ",
+            "privacy": "隐私",
+            "after": "。"
+          }
+        ]
+      },
+      {
+        "title": "品牌安全过滤器",
+        "items": [
+          "我们默认阻止风险提示词、上传和输出 —— 因此团队无需额外监督即可保持在政策范围内。",
+          "敏感案例会路由到人工审核，并在需要时提供审计跟踪和简单的升级选项。",
+          "管理员可以为每个工作区请求自定义允许列表或受限关键字。"
+        ]
+      },
+      {
+        "title": "API 参考",
+        "items": [
+          "用于渲染、退款和队列更新的 Webhook 回调。",
+          "REST 和 GraphQL 参考位于经过身份验证的文档中。",
+          "SDK 示例涵盖 Node.js, Python, 和直接 webhook 验证。"
+        ]
+      }
+    ],
+    "apiNotice": {
+      "public": "公开摘要如下。",
+      "private": "完整的 API 文档需要在工作区内进行身份验证。"
+    },
+    "onboardingChecklist": {
+      "title": "入职清单",
+      "items": [
+        "✅ 填写品牌简介（基调、目标、交付物）。",
+        "✅ 添加 1–3 个示例提示词和参考资产。",
+        "✅ 设置默认纵横比和音频偏好。"
+      ],
+      "note": "您可以随时编辑简介；更新适用于工作区中的每个人。"
+    },
+    "pricingCallout": "✅ 您总是在渲染之前看到价格。",
+    "refundsTimeline": {
+      "title": "退款时间表",
+      "steps": [
+        "1) 作业失败 → 系统标记事故。",
+        "2) 自动退款 → 几分钟内款项退回钱包。",
+        "3) 收据 → 带有简短事故说明的分项记录。"
+      ],
+      "note": "您只需为成功的作业付费。退款出现在作业源和收据中。"
+    },
+    "refundsCallout": "✅ 失败的作业在几分钟内自动退款；收据包含简短的事故说明。",
+    "safetyQuick": {
+      "title": "快速概览",
+      "items": [
+        "• 默认阻止：非法内容、露骨色情内容、仇恨/骚扰、人肉搜索。",
+        "• 媒体检查：风险上传/输出被隔离以供审核。",
+        "• 管理员控制：每个工作区请求允许列表或受限关键字。"
+      ],
+      "note": "敏感案例路由到人工审核，带有审计跟踪和简单的升级选项。"
+    },
+    "safetyCallout": "⚠️ 敏感用例可能需要管理员允许列表或人工审核。",
+    "seeAlsoLabel": "另请参阅：",
+    "seeAlso": {
+      "onboarding": [
+        {
+          "href": "/workflows#how-it-works",
+          "label": "工作流概览"
+        },
+        {
+          "href": "/examples",
+          "label": "示例画廊"
+        }
+      ],
+      "pricing": [
+        {
+          "href": "/pricing#estimator",
+          "label": "定价估算器"
+        },
+        {
+          "href": "/pricing#example-costs",
+          "label": "示例成本"
+        }
+      ],
+      "refunds": [
+        {
+          "href": "/pricing#refunds-protections",
+          "label": "退款与保护"
+        },
+        {
+          "href": "/legal/terms",
+          "label": "条款"
+        }
+      ],
+      "safety": [
+        {
+          "href": "/workflows#how-it-works",
+          "label": "工作流概览"
+        },
+        {
+          "href": "/models",
+          "label": "模型列表"
+        }
+      ],
+      "api": [
+        {
+          "href": "/pricing#estimator",
+          "label": "估算器输入"
+        },
+        {
+          "href": "/examples",
+          "label": "示例负载"
+        }
+      ],
+      "library": [
+        {
+          "href": "/workflows",
+          "label": "工作流"
+        },
+        {
+          "href": "/models",
+          "label": "模型"
+        }
+      ]
+    },
+    "library": {
+      "heading": "库",
+      "liveLabel": "实时",
+      "comingSoonLabel": "即将推出",
+      "summaryLive": "浏览适合您团队的可重用资产、预设和参考提示词。",
+      "summarySoon": "文档即将推出。"
+    },
+    "feedback": {
+      "srTitle": "反馈",
+      "prompt": "此页面有帮助吗？",
+      "yes": "是",
+      "no": "否",
+      "backToTop": "返回顶部"
+    },
+    "lastUpdatedLabel": "最后更新：",
+    "jsonLd": {
+      "collectionName": "文档 — 入职、品牌安全、退款 & API Webhooks",
+      "hasPart": {
+        "onboarding": "入职",
+        "pricing": "价格体系",
+        "refunds": "退款",
+        "safety": "品牌安全",
+        "api": "API 参考",
+        "library": "库"
+      },
+      "about": [
+        "入职",
+        "退款政策",
+        "品牌安全",
+        "webhooks",
+        "api 参考"
+      ],
+      "breadcrumbHome": "首页",
+      "breadcrumbDocs": "文档",
+      "faq": [
+        {
+          "question": "入门积分会过期吗？",
+          "answer": "不会。积分逐月滚动，并在有访问权限的队友之间同步。"
+        },
+        {
+          "question": "失败的渲染退款有多快？",
+          "answer": "退款在几分钟内自动处理；每个作业都包含给财务的简短事故说明。"
+        },
+        {
+          "question": "我们可以为特定项目覆盖品牌安全吗？",
+          "answer": "可以。管理员可以为每个工作区请求自定义允许列表或受限关键字；敏感案例路由到带有审计跟踪的人工审核。"
+        }
+      ]
+    },
+    "empty": "文档即将推出。",
+    "libraryHeading": "库"
+  },
+  "blog": {
+    "hero": {
+      "title": "MaxVideo AI 博客。",
+      "subtitle": "关于引擎、客户故事、提示词指南和生成前定价最佳实践的新闻。在应用内订阅以在队列摘要中获取更新。",
+      "eyebrow": "工作室期刊",
+      "ctaLabel": "最新 Sora 报道 →"
+    },
+    "empty": "博客文章即将推出。",
+    "cta": "阅读更多",
+    "intro": {
+      "lead": "MaxVideoAI 的期刊涵盖了我们在为真实制作团队路由前沿视频引擎时学到的一切。我们记录提示词模式、价格变化、延迟变化，以及当模型轮换时保持代理商按计划进行的工作流。每篇故事都源于实时使用——而非新闻稿。",
+      "cards": [
+        {
+          "title": "模型深度剖析",
+          "body": "Sora 2, Veo 3, Pika 2.2, MiniMax Hailuo 02 以及我们工作区中下一个排队引擎的比较和功能说明。"
+        },
+        {
+          "title": "工作流策略",
+          "body": "序列化提示、音频集成和定价护栏，帮助团队在不浪费积分的情况下发布品牌故事。"
+        },
+        {
+          "title": "客户故事",
+          "body": "欧洲和北美的制片厂和营销人员如何在多个引擎中部署相同的简介并保持审阅周期移动。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "博客常见问题",
+      "items": [
+        {
+          "question": "新文章多久发布一次？",
+          "answer": "随着引擎变化，我们每周（有时每周两次）发布。在工作区订阅以便在有新报道时获取摘要。"
+        },
+        {
+          "question": "我可以建议主题或请求报道吗？",
+          "answer": "可以——发送主题至 press@maxvideo.ai，如果是的话请包含参考渲染。我们优先考虑有助于制作团队保持最新的故事。"
+        },
+        {
+          "question": "在哪里可以找到发行说明？",
+          "answer": "功能级更新位于产品变更日志中，API 更新发布在开发人员文档内。博客涵盖更高级别的工作流。"
+        }
+      ],
+      "footnote": "需要更多详细信息？发送电子邮件至 press@maxvideo.ai 说明您的请求，我们会将其路由至合适的制作人。"
+    }
+  },
+  "videoPage": {
+    "backLink": "← 返回",
+    "hero": {
+      "titleFallback": "MaxVideoAI 渲染",
+      "intro": "此视频是使用 {engine} 在 MaxVideoAI 上生成的 — 了解如何在下面创建类似的渲染。",
+      "promptLabel": "提示词",
+      "promptFallback": "提示词不可用。",
+      "copy": "复制提示词",
+      "copied": "已复制！",
+      "showMore": "显示更多",
+      "showLess": "显示更少"
+    },
+    "seo": {
+      "title": "渲染明细",
+      "promptFallback": "一个电影级 AI 场景",
+      "durationPhrase": "一个 {value} 秒的片段",
+      "durationFallback": "一个短片段",
+      "aspectPhrase": "{value} 纵横比",
+      "aspectFallback": "自适应纵横比",
+      "sentences": [
+        "这个 AI 生成的视频展示了 {promptStyle}，直接来自我们的公开示例播放列表。",
+        "{engineName} 在 MaxVideoAI 内部处理了此渲染，以 {aspectRatioLabel} 和 {audioState} 提供了 {durationLabel}。",
+        "该主要内容突出了连贯的动作、清晰的照明和自然的反射，以便创意和产品团队可以判断模型的表现。",
+        "提示词样式保留了 {promptTone} 线索，您可以将其与图像参考、旁白或放大进行混合或扩展。",
+        "使用下面的引擎卡片、定价链接和博客资源来比较模型或在您的工作区中开始类似的运行。"
+      ]
+    },
+    "details": {
+      "title": "渲染详情",
+      "engineLabel": "引擎",
+      "engineDescriptionFallback": "浏览此模型的完整规格表。",
+      "engineCta": "打开模型页面",
+      "engineUnavailable": "引擎不可用",
+      "durationLabel": "时长",
+      "durationValue": "{value} 秒",
+      "durationUnknown": "未知",
+      "aspectLabel": "纵横比",
+      "aspectAuto": "自动",
+      "createdLabel": "创建于",
+      "priceTotalLabel": "渲染成本",
+      "priceTotalValue": "{value}",
+      "priceTotalUnknown": "不可用",
+      "audioLabel": "音频",
+      "pricingEyebrow": "定价",
+      "pricingBody": "在渲染之前比较引擎费率并规划预算。",
+      "cta": "比较定价",
+      "ctaDescription": "探索所有引擎费率",
+      "discountAppliedLabel": "已应用会员折扣",
+      "discountSavedLabel": "节省了 {amount}",
+      "discountPercentLabel": "{percent} 折",
+      "discountTierLabel": "{tier} 层级"
+    },
+    "audioStates": {
+      "withAudio": "启用音频",
+      "withoutAudio": "静音输出"
+    },
+    "create": {
+      "title": "创建您自己的",
+      "subtitle": "想要创建像这样的视频吗？",
+      "body": "从此提示词开始渲染，或在工作区中加载它，以使用您首选的引擎、时长或音频设置进行混合。",
+      "cta": "开始渲染 →"
+    },
+    "recreate": {
+      "title": "重新创建此视频",
+      "body": "在您的工作区中加载此渲染，预填原始设置。",
+      "cta": "在工作区中重新创建",
+      "microcopy": "加载提示词 + 引擎 + 时长 + 音频。"
+    },
+    "blog": {
+      "title": "不断升级",
+      "message": "了解更多关于 AI 视频创作的信息 — 访问我们的博客获取提示、引擎比较和创意用例。",
+      "cta": "访问博客"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "AI 视频团队的静谧自信。",
+      "subtitle": "MaxVideo AI 是 AI 视频制作的独立中心。我们为每个镜头路由到合适的引擎，在生成之前定价，并让您的团队在没有供应商锁定的情况下保持控制。"
+    },
+    "paragraphs": [
+      "我们相信专业团队在点击渲染之前应该获得清晰的信息。这意味着价格透明、可靠的路由以及创意人员、制作人和利益相关者之间的共享背景。",
+      "独立性很重要：我们在引擎之间保持中立，与 Sora 2, Veo 3.1, Veo 3 Fast, Pika 2.2, MiniMax Hailuo 02, Hunyuan Image 以及轮换测试版集成，并且仅列出商标以描述兼容性。",
+      "该产品专为需要精确度而无需噪音的团队设计。安静的用户界面，高级默认设置，精确控制以及让财务参与其中的预先定价芯片。"
+    ],
+    "note": "商标和服务标记是其各自所有者的财产。MaxVideo AI 保持独立，因此您无需切换平台即可保持最新状态。"
+  },
+  "contact": {
+    "hero": {
+      "title": "联系团队。",
+      "subtitle": "需要支持、企业入职或媒体信息？发送便条，我们将在一个工作日内回复。"
+    },
+    "form": {
+      "name": "姓名",
+      "email": "电子邮件",
+      "topic": "主题",
+      "selectPlaceholder": "选择一个主题",
+      "topics": [
+        {
+          "value": "support",
+          "label": "支持"
+        },
+        {
+          "value": "sales",
+          "label": "销售"
+        },
+        {
+          "value": "partnerships",
+          "label": "合作伙伴"
+        },
+        {
+          "value": "press",
+          "label": "媒体"
+        }
+      ],
+      "message": "留言",
+      "submit": "发送消息",
+      "alt": "更喜欢电子邮件？写信给 {email}。"
+    }
+  },
+  "legal": {
+    "terms": {
+      "title": "服务条款",
+      "intro": "这些条款构成当前有效的用户协议。",
+      "sections": [
+        {
+          "heading": "1. 概览",
+          "body": "这些条款管辖您对 MaxVideo AI 的使用。通过访问服务，您同意以下义务。"
+        },
+        {
+          "heading": "2. 账户",
+          "body": "您负责维护账户安全并确保队友遵守这些条款。"
+        },
+        {
+          "heading": "3. 使用与合规",
+          "body": "仅在遵守适用法律的情况下使用 MaxVideo AI，尊重许可限制，切勿上传非法或侵权资产，也不要尝试生成禁止或不安全的内容。当视频违反这些条款或我们的政策时，我们可能会审查、阻止或删除渲染并暂停访问。"
+        },
+        {
+          "heading": "4. 用户内容与生成的媒体",
+          "body": "用户上传（照片、徽标、参考镜头、提示词）仍然是您的财产。我们可能会存储、处理和显示上传的资产，仅用于生成请求的文生视频或图生视频渲染，并交付您启用的工作区功能。对于生成的每一份媒体，您授予 MaxVideoAI 全球性、非独占、免版税、可转让和可再许可的许可，以托管、复制、索引、展示和以其他方式使用视频来运营服务、改进路由和模型、运行安全审查，并展示示例库、模板页面或其他营销展示位置。您可以在工作区内将渲染标记为私有，如果隐私切换不可用，请联系支持部门请求下架/取消索引，我们将尊重该请求。您保留对提示词、上传、描述和品牌资产的所有权，而 MaxVideoAI 保留对平台、界面、转换以及构建在服务之上的技术改进的所有权。"
+        },
+        {
+          "heading": "5. 计费",
+          "body": "钱包费用仅适用于成功的渲染。失败的作业会自动退款。"
+        },
+        {
+          "heading": "6. 责任",
+          "body": "MaxVideo AI 按原样提供。我们在法律允许的最大范围内限制责任。"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "intro": "我们隐私惯例的重点。最终法律文本将位于此处。",
+      "sections": [
+        {
+          "heading": "1. 我们收集的数据",
+          "body": "交付服务所需的工作区详细信息、使用指标和计费信息。"
+        },
+        {
+          "heading": "2. 我们如何使用数据",
+          "body": "运营路由，提高产品质量，并传达重要更新。"
+        },
+        {
+          "heading": "3. 存储与安全",
+          "body": "我们将数据存储在具有最小特权访问权限的加密系统中。渲染资产按工作区策略自动过期。"
+        },
+        {
+          "heading": "4. 共享",
+          "body": "我们在路由渲染时仅与底层引擎提供商共享数据。我们从不出售客户数据。"
+        },
+        {
+          "heading": "5. 您的选择",
+          "body": "随时通过 support@maxvideo.ai 请求导出或删除。管理员控制保留窗口。"
+        }
+      ]
+    }
+  },
+  "changelog": {
+    "hero": {
+      "title": "变更日志",
+      "subtitle": "每个引擎更新、工作流改进和定价调整 —— 每周发布。在应用内订阅以获取警报。"
+    },
+    "entries": [
+      {
+        "date": "2024-06-12",
+        "title": "Veo 模板 + 队列透明度",
+        "body": "添加了 Veo V2 路由、预先定价芯片上的队列长度指示器以及共享钱包通知。"
+      },
+      {
+        "date": "2024-06-05",
+        "title": "退款自动化",
+        "body": "当渲染失败或提供商出错时，自动退款现在会在 90 秒内触发。"
+      },
+      {
+        "date": "2024-05-29",
+        "title": "品牌套件移交",
+        "body": "工作流将品牌套件导出为 FCPXML 和 AE JSON，供后期团队使用。"
+      }
+    ]
+  },
+  "status": {
+    "hero": {
+      "title": "状态",
+      "subtitle": "队列健康、路由提供商和计费系统的实时指标。在应用内订阅以获取事故警报。"
+    },
+    "systems": [
+      {
+        "name": "引擎路由",
+        "status": "运行中",
+        "detail": "所有引擎在 SLA 内响应。"
+      },
+      {
+        "name": "队列处理",
+        "status": "运行中",
+        "detail": "平均开始时间低于 45 秒。"
+      },
+      {
+        "name": "钱包 + 计费",
+        "status": "运行中",
+        "detail": "付款、退款和收据正常运行。"
+      },
+      {
+        "name": "回调 & Webhooks",
+        "status": "降级",
+        "detail": "Webhook 重试延迟约 2 分钟。正在调查。"
+      }
+    ],
+    "incidents": [
+      {
+        "date": "2024-06-10",
+        "title": "Pika 提供商延迟",
+        "summary": "Pika 队列延迟 34 分钟。针对受影响的渲染触发了自动退款。",
+        "status": "已解决"
+      }
+    ]
+  },
+  "systemMessages": {
+    "refundInitiated": "您的付款正在退款中。这可能需要 5–10 个工作日才能出现在您的对账单上。",
+    "partialRefund": "我们已发放 {refundedAmount} 的部分退款。剩余的 {remainingAmount} 将保留在您的对账单上。",
+    "paymentRetried": "我们已安全地重试您的付款；您不会被双重扣费。"
+  },
+  "gallery": {
+    "meta": {
+      "title": "AI 视频示例 + 显示定价 | MaxVideoAI",
+      "description": "浏览带有提示词、时长、音频信息和每个剪辑显示定价的真实 AI 视频示例。在几秒钟内将任何镜头克隆到您的工作区。",
+      "title_engine": "AI 视频示例 — {engineName} | MaxVideoAI",
+      "description_engine": "浏览带有提示词、时长、音频信息和每个剪辑显示定价的 {engineName} 视频示例。将任何镜头克隆到工作区。"
+    }
+  },
+  "workspace": {
+    "header": {
+      "marketingNav": "营销导航",
+      "walletLabel": "钱包",
+      "memberFallback": "会员",
+      "signedIn": "已登录",
+      "primaryNav": "主导航",
+      "signOut": "登出",
+      "createAccount": "创建账户",
+      "signIn": "登录",
+      "logoAria": "前往营销主页"
+    },
+    "sidebar": {
+      "aria": {
+        "controls": "侧边栏控制",
+        "expand": "展开侧边栏",
+        "collapse": "折叠侧边栏",
+        "pin": "固定侧边栏打开",
+        "unpin": "取消固定侧边栏",
+        "menu": "应用菜单",
+        "home": "前往首页"
+      },
+      "links": {
+        "dashboard": "仪表板",
+        "generate": "生成视频",
+        "jobs": "任务",
+        "billing": "计费",
+        "settings": "设置"
+      },
+      "badges": {
+        "live": "LIVE"
+      }
+    },
+    "languageToggle": {
+      "ariaLabel": "更改工作区语言"
+    },
+    "generate": {
+      "errors": {
+        "loadEngines": "无法加载引擎",
+        "noEngines": "无可用引擎。"
+      },
+      "gallery": {
+        "empty": "启动生成以填充您的画廊。每次运行的变体将出现在此处。"
+      },
+      "wallet": {
+        "insufficient": "钱包余额不足。请充值以继续生成。",
+        "insufficientWithAmount": "钱包余额不足。请至少充值 {amount} 以继续生成。"
+      },
+      "topUp": {
+        "title": "添加积分",
+        "presetsLabel": "添加积分",
+        "otherAmountLabel": "其他金额",
+        "minLabel": "最少 {amount}",
+        "close": "关闭",
+        "maybeLater": "稍后再说",
+        "submit": "添加资金",
+        "submitting": "正在开始充值…"
+      },
+      "assetLibrary": {
+        "title": "选择参考图像",
+        "refresh": "刷新",
+        "close": "关闭",
+        "fieldFallback": "参考图像",
+        "empty": "尚无保存的图像。上传参考图像以在此处查看。",
+        "emptyUploads": "尚无上传的图像。上传参考图像以在此处查看。",
+        "emptyGenerated": "尚无生成的图像保存。保存生成的图像以在此处查看。",
+        "tabs": {
+          "all": "全部",
+          "upload": "已上传",
+          "generated": "已生成"
+        }
+      },
+      "processing": {
+        "title": "处理中…",
+        "errorTitle": "生成失败",
+        "takeLabel": "镜头 {current}/{total}",
+        "phrases": [
+          "正在通过提供商路由您的渲染…",
+          "正在预热动作提示…",
+          "正在将帧拼接成预览…",
+          "正在交付前运行安全检查…"
+        ]
+      },
+      "assetSlots": {
+        "imageCtaLabel": "生成参考图像",
+        "imageCtaHref": "/app/image"
+      },
+      "controls": {
+        "core": {
+          "title": "核心设置",
+          "subtitle": "时长, 纵横比, 分辨率"
+        },
+        "frames": {
+          "label": "帧数",
+          "options": "选项: {options}",
+          "unit": "{count} 帧",
+          "hint": "帧数控制剪辑长度；值直接转发，不转换为秒。"
+        },
+        "duration": {
+          "optionsLabel": "时长",
+          "maxLabel": "最大 {seconds}秒",
+          "rangeLabel": "时长 — 秒",
+          "rangeHint": "最小 {min}秒 · 最大 {max}秒",
+          "managed": "时长由此引擎直接管理。"
+        },
+        "resolution": {
+          "label": "分辨率",
+          "auto": "自动",
+          "hd": "• 高清",
+          "fullHd": "• 全高清",
+          "ultraHd": "• 超高清",
+          "proSuffix": "• 专业"
+        },
+        "aspect": {
+          "label": "纵横比",
+          "options": {
+            "auto": "自动",
+            "source": "源",
+            "custom": "自定义"
+          }
+        },
+        "iterationsLabel": "迭代次数",
+        "loop": {
+          "label": "循环",
+          "on": "开",
+          "off": "关"
+        },
+        "advancedTitle": "高级设置",
+        "seed": {
+          "label": "种子",
+          "placeholder": "随机",
+          "lock": "锁定种子"
+        },
+        "jitter": {
+          "label": "抖动",
+          "unit": "%"
+        },
+        "fpsSuffix": "{value} fps",
+        "promptStrength": "提示词强度",
+        "guidance": "指导",
+        "inputInfluence": "输入影响",
+        "cfgScale": "Cfg 比例",
+        "extend": {
+          "label": "扩展",
+          "action": "扩展",
+          "unit": "秒"
+        },
+        "keyframes": "支持关键帧 (Pika 2.2)"
+      },
+      "preview": {
+        "title": "合成预览",
+        "empty": "选择一个镜头进行预览",
+        "variants": {
+          "singular": "{count} 个变体",
+          "plural": "{count} 个变体"
+        },
+        "controls": {
+          "play": {
+            "on": "暂停",
+            "off": "播放",
+            "ariaOn": "暂停所有预览",
+            "ariaOff": "播放所有预览"
+          },
+          "mute": {
+            "on": "取消静音",
+            "off": "静音",
+            "ariaOn": "取消所有预览静音",
+            "ariaOff": "静音所有预览"
+          },
+          "loop": {
+            "on": "循环开启",
+            "off": "循环关闭",
+            "ariaOn": "禁用循环",
+            "ariaOff": "启用循环"
+          },
+          "modal": {
+            "label": "打开模态框",
+            "aria": "在模态框中打开预览"
+          },
+          "openTake": {
+            "label": "打开",
+            "aria": "打开此镜头"
+          },
+          "copyPrompt": "复制提示词"
+        },
+        "placeholder": "—"
+      },
+      "galleryRail": {
+        "title": "最新渲染",
+        "viewAll": "查看全部",
+        "curated": "MaxVideo 团队策划的入门示例将一直显示，直到您生成自己的视频。",
+        "error": "无法加载最新渲染。请重试。",
+        "retry": "重试",
+        "imageCta": "生成图像",
+        "snackbar": {
+          "samples": "无法删除示例剪辑。",
+          "removed": "已从画廊中删除。",
+          "failed": "无法从画廊中删除。"
+        }
+      },
+      "composer": {
+        "title": "合成器",
+        "subtitle": "增强提示词 • 非破坏性重运行",
+        "badges": {
+          "payg": "按需付费",
+          "priceBefore": "预先定价",
+          "alwaysCurrent": "始终最新"
+        },
+        "priceLabel": "本次渲染：{amount}",
+        "memberLabel": "会员价 — 您节省了 {percent}%",
+        "labels": {
+          "required": "必填",
+          "optional": "可选"
+        },
+        "prompt": {
+          "placeholder": "描述场景…",
+          "placeholderWithImage": "描述图像应该如何移动 / 变换…"
+        },
+        "negativePrompt": {
+          "placeholder": "要避免的元素…",
+          "requiredHint": "必填"
+        },
+        "shortcuts": {
+          "generate": "Cmd+Enter • 生成",
+          "price": "G • 预先定价",
+          "seed": "S • 锁定种子"
+        },
+        "iterationsLabel": "×{count}",
+        "button": {
+          "idle": "生成",
+          "loading": "正在计算价格…"
+        }
+      },
+      "engineSelect": {
+        "avgDuration": "平均 {value}",
+        "choose": "选择引擎",
+        "variant": "变体",
+        "browse": "浏览引擎...",
+        "inputMode": "输入模式",
+        "unsupportedMode": "此引擎不支持",
+        "modal": {
+          "viewExamples": "查看示例",
+          "empty": "尚无符合您筛选条件的引擎。调整筛选条件或清除搜索以探索完整目录。",
+          "disclaimer": "徽标仅用于描述目的。商标属于其各自所有者。",
+          "descriptionFallback": "适用于预先定价工作流的多功能引擎。查看规格并放心运行。"
+        },
+        "guides": {
+          "pika-text-to-video": {
+            "description": "Pika 2.2 在一张卡片中处理风格化的提示词或上传的静止图像 — 非常适合快速循环和产品演示。",
+            "badges": [
+              "文本提示词",
+              "图像输入",
+              "快速队列"
+            ]
+          },
+          "sora-2": {
+            "description": "OpenAI Sora 2 处理具有口型同步和音频的电影级叙事 - 理想的英雄渲染。",
+            "badges": [
+              "原生音频",
+              "电影级",
+              "混音"
+            ]
+          },
+          "sora-2-pro": {
+            "description": "Sora 2 Pro 解锁更高分辨率、同步对话和图生视频控制，用于顶级制作。",
+            "badges": [
+              "1792×1024",
+              "原生音频",
+              "口型同步"
+            ]
+          },
+          "veo-3-1": {
+            "description": "Veo 3.1 现在处理直接提示词或参考静止图像。在不离开队列的情况下在文生视频和图生视频之间切换。",
+            "badges": [
+              "文本提示词",
+              "多参考",
+              "原生音频"
+            ]
+          },
+          "veo-3-1-fast": {
+            "description": "Veo 3.1 Fast 现在处理带有可选音频的快速文本提示词或单图像动画。",
+            "badges": [
+              "文本提示词",
+              "图生视频",
+              "音频选项"
+            ]
+          },
+          "veo-3-1-first-last": {
+            "description": "上传第一帧和最后一帧，描述桥接，并在 Veo 3.1 和 Veo 3.1 Fast 之间切换以进行过渡。",
+            "badges": [
+              "两帧",
+              "音频选项",
+              "标准 & 快速"
+            ]
+          },
+          "minimax-hailuo-02-text": {
+            "description": "Hailuo 02 Standard 处理风格化文本提示词或带有提示词优化器支持的动画参考静止图像。",
+            "badges": [
+              "提示词优化器",
+              "图像输入",
+              "6–10秒静音"
+            ]
+          },
+          "kling-2-5-turbo": {
+            "description": "Kling 2.5 Turbo 位于一张卡片中，具有专业文本、专业图像和标准图生视频模式，用于电影级镜头或预算循环。",
+            "badges": [
+              "文本提示词",
+              "图生视频",
+              "标准层级"
+            ]
+          },
+          "wan-2-5": {
+            "description": "Wan 2.5 处理 5 或 10 秒的片段，带有可选的背景音频以及当您需要额外细节时的提示词扩展。",
+            "badges": [
+              "音频选项",
+              "5秒或10秒",
+              "480p–1080p"
+            ]
+          },
+          "wan-2-6": {
+            "description": "Wan 2.6 在一张卡片中合并了文本、图像和参考视频，具有多镜头提示和 720p/1080p 层级。",
+            "badges": [
+              "文本提示词",
+              "图像输入",
+              "参考视频"
+            ]
+          }
+        }
+      }
+    },
+    "image": {
+      "hero": {
+        "eyebrow": "图像工作区",
+        "title": "生成图像",
+        "subtitle": "使用 Nano Banana 和其他 Fal 图像引擎创建和编辑高保真图像。"
+      },
+      "preview": {
+        "eyebrow": "生成预览",
+        "title": "最新输出",
+        "emptyTitle": "尚无预览。",
+        "emptyDescription": "运行生成以在此处查看最新图像。",
+        "download": "下载",
+        "copy": "复制链接",
+        "copied": "已复制",
+        "cta": "生成图像"
+      },
+      "engine": {
+        "eyebrow": "引擎",
+        "priceCalculating": "正在计算价格…",
+        "priceLabel": "{amount} / 次运行"
+      },
+      "modeTabs": {
+        "generate": "创建",
+        "edit": "编辑"
+      },
+      "composer": {
+        "promptLabel": "提示词",
+        "promptPlaceholder": "描述您想要生成的图像...",
+        "promptPlaceholderWithImage": "描述图像应该如何被编辑 / 变换…",
+        "charCount": "{count} 字符",
+        "presetsHint": "点击预设 · 每次运行 1–8",
+        "numImagesLabel": "图像数量",
+        "numImagesCount": "{count} {unit}",
+        "numImagesUnit": {
+          "singular": "张图像",
+          "plural": "张图像"
+        },
+        "resolutionLabel": "分辨率",
+        "resolutionHint": "在 1K/2K 中草拟，然后切换到 4K 进行最终制作（定价自动更新）。",
+        "resolutionLockedLabel": "此引擎锁定了分辨率。",
+        "estimatedCost": "预估成本：{amount}",
+        "referenceLabel": "参考图像",
+        "referenceHelper": "可选 · 最多 {count} 张图像",
+        "referenceNote": "拖放、粘贴、从您的设备上传，或从您的库中提取。这些参考在编辑模式下是必需的。",
+        "referenceButton": "库",
+        "referenceSlotLabel": "槽 {index}",
+        "referenceSlotHint": "拖放图像，点击上传，粘贴，或从您的库中选择。",
+        "referenceSlotNameFallback": "图像",
+        "referenceSlotActions": {
+          "upload": "上传",
+          "library": "库",
+          "replace": "替换",
+          "remove": "移除"
+        }
+      },
+      "history": {
+        "eyebrow": "最近运行",
+        "empty": "启动生成以填充您的历史记录。每个图像变体显示在下面。",
+        "runsLabel": {
+          "zero": "尚无运行",
+          "other": "{count} 次运行"
+        },
+        "noPreview": "无预览",
+        "loadMore": "加载更多",
+        "refreshing": "正在刷新历史记录…"
+      },
+      "runButton": {
+        "idle": "生成图像",
+        "running": "正在生成…"
+      },
+      "errors": {
+        "onlyImages": "仅支持图像文件。",
+        "uploadFailed": "无法上传所选图像。请重试。",
+        "fileTooLarge": "图像超过 {maxMB} MB。压缩它或选择较小的文件。",
+        "unauthorized": "会话已过期 — 请重新登录并重试上传。",
+        "promptMissing": "提示词是必需的。",
+        "referenceMissing": "为编辑模式提供至少一张源图像。",
+        "generic": "图像生成失败。"
+      },
+      "messages": {
+        "success": "生成了 {count} 张图像{suffix}。",
+        "savedToLibrary": "已保存到库。",
+        "removedFromLibrary": "已从库中移除。"
+      },
+      "general": {
+        "uploading": "正在上传…",
+        "cancelUpload": "取消上传",
+        "emptyEngines": "无可用图像引擎。"
+      },
+      "library": {
+        "button": "库",
+        "empty": "尚无保存的资产。从合成器或库页面上传图像。",
+        "overlay": "使用此图像",
+        "assetFallback": "资产",
+        "tabs": {
+          "all": "所有图像",
+          "upload": "已上传图像",
+          "generated": "已生成图像"
+        },
+        "modal": {
+          "title": "从库中选择",
+          "description": "选择您之前导入的图像。",
+          "close": "关闭",
+          "error": "无法加载资产。请重试。",
+          "empty": "尚无保存的资产。从合成器或库页面上传图像。",
+          "emptyUploads": "尚无上传的图像。从合成器或库页面上传图像。",
+          "emptyGenerated": "尚无生成的图像保存。保存生成的图像以在此处查看。"
+        }
+      }
+    },
+    "jobs": {
+      "title": "任务",
+      "sections": {
+        "video": "视频任务",
+        "image": "图像任务",
+        "videoEmpty": "尚无视频任务。",
+        "imageEmpty": "尚无图像任务。"
+      },
+      "teams": {
+        "title": "团队",
+        "srLive": "实时",
+        "srSoon": "即将推出",
+        "live": "共享钱包、审批和预算在您的工作区中已启用。",
+        "beta": "即将推出 — 共享钱包、审批和预算。加入测试版 {email}。",
+        "email": "support@maxvideoai.com"
+      },
+      "curated": "MaxVideo 团队策划的入门渲染将在此处显示，直到您生成自己的剪辑。",
+      "error": "无法加载任务。",
+      "retry": "重试",
+      "empty": "尚无渲染。开始生成以填充您的历史记录。",
+      "loadMore": "加载更多",
+      "loading": "加载中…",
+      "actions": {
+        "addToLibrary": "添加到库",
+        "removeFromLibrary": "从库中移除",
+        "saving": "正在保存…",
+        "removing": "正在移除…"
+      }
+    },
+    "dashboard": {
+      "create": {
+        "title": "创建",
+        "subtitle": "开始新的渲染或继续您未完成的工作。",
+        "videoTitle": "创建视频",
+        "videoSubtitle": "选择您的引擎和模式，然后开始渲染。",
+        "imageTitle": "创建图像",
+        "imageSubtitle": "使用图像引擎生成静止图像或编辑。",
+        "engineLabel": "引擎",
+        "newVideo": "新视频",
+        "useLastVideo": "使用上次视频设置",
+        "startVideoTemplate": "从模板开始",
+        "newImage": "新图像",
+        "useLastImage": "使用上次图像设置",
+        "startImageTemplate": "从模板开始"
+      },
+      "modes": {
+        "t2v": "文生视频",
+        "i2v": "图生视频",
+        "r2v": "参考",
+        "t2i": "创建",
+        "i2i": "编辑"
+      },
+      "inProgress": {
+        "title": "进行中",
+        "empty": "目前没有活动的渲染。",
+        "etaLabel": "预计到达时间",
+        "progressLabel": "进度",
+        "open": "打开",
+        "remix": "混音"
+      },
+      "recent": {
+        "title": "最近的渲染",
+        "viewAll": "打开库",
+        "empty": "尚无渲染。开始生成以填充您的库。",
+        "tabs": {
+          "all": "全部",
+          "completed": "已完成",
+          "failed": "失败"
+        }
+      },
+      "insights": {
+        "title": "洞察",
+        "spendToday": "今日花费",
+        "spend30": "30天花费",
+        "avgCost": "平均成本",
+        "runway": "跑道",
+        "runwayFallback": "跑道估算需要已完成的渲染。",
+        "mostUsed": "最常使用"
+      },
+      "quickStarts": {
+        "title": "快速开始",
+        "empty": "将渲染保存为模板以便在此处重复使用。",
+        "use": "使用",
+        "manage": "打开库",
+        "remove": "移除",
+        "meta": {
+          "engine": "引擎",
+          "format": "格式",
+          "duration": "时长",
+          "audio": "音频",
+          "audioOn": "开",
+          "audioOff": "关",
+          "audioUnknown": "—",
+          "price": "价格",
+          "formatAuto": "自动"
+        },
+        "defaultTitle": "模板"
+      },
+      "engines": {
+        "title": "引擎状态",
+        "allOk": "所有引擎运行正常",
+        "error": "无法加载引擎。",
+        "queueLabel": "队列：{count}"
+      },
+      "actions": {
+        "retry": "重试",
+        "loadMore": "加载更多",
+        "download": "下载",
+        "remix": "混音",
+        "template": "用作模板",
+        "noPreview": "无预览"
+      },
+      "lightbox": {
+        "groupTitle": "组 ×{count}",
+        "jobTitle": "渲染 {id}",
+        "metadata": {
+          "created": "创建时间",
+          "heroDuration": "主要时长",
+          "engine": "引擎",
+          "duration": "时长",
+          "status": "状态",
+          "notProvided": "未提供"
+        },
+        "statusFallback": "不可用",
+        "versionLabel": "版本 {index}"
+      }
+    },
+    "billing": {
+      "title": "计费",
+      "hero": {
+        "title": "生成前定价。",
+        "subtitle": "仅为您运行的内容付费。从入门积分（$10）开始。无订阅。无锁定。",
+        "liveMode": "实时模式",
+        "testMode": "测试模式"
+      },
+      "wallet": {
+        "title": "钱包",
+        "description": "入门积分（$10）。充值一次，然后按每次渲染精确到美分付费。任何未使用的余额归您所有。",
+        "addFunds": "添加 {amount}",
+        "quickAmount": "{amount}",
+        "customLabel": "自定义金额 (USD)",
+        "customPlaceholder": "输入金额 (最低 $10)",
+        "customHint": "最低充值金額为 $10。",
+        "customCta": "添加自定义金额",
+        "customInvalid": "输入有效金额。",
+        "customMin": "最低为 $10。",
+        "autoTopUp": "启用自动充值 (可选)",
+        "lowBalance": "您的余额不足。充值以继续创作。",
+        "currencyLabel": "扣费货币",
+        "currencyLoading": "正在检测货币…",
+        "currencyLoadError": "无法加载货币。默认为 USD。",
+        "currencyDetected": "自动检测 {currency}",
+        "currencyOverride": "以 {selected} 扣费 (自动: {detected})",
+        "quoteLoading": "获取实时总计…",
+        "quoteError": "无法获取汇率报价。金额在结账时最终确定。"
+      },
+      "membership": {
+        "title": "会员状态",
+        "description": "状态是自动的 — 无需订阅。根据您过去 30 天的支出滚动计算。状态每天根据您过去 30 天的支出更新。",
+        "defaultTier": "会员",
+        "savingsChip": "您节省了 {percent}%",
+        "defaultLine": "{tier} — 每次渲染均为标准费率。",
+        "thresholdLine": "{tier} — 30 天内消费 {amount} 即可在每次符合条件的渲染中节省 {percent}%。",
+        "labels": {
+          "member": "会员",
+          "plus": "Plus",
+          "pro": "Pro"
+        }
+      },
+      "teams": {
+        "title": "团队版",
+        "description": "共享钱包和角色。让您的团队使用同一个余额进行创作。设置软/硬项目预算。每日通过电子邮件发送摘要。",
+        "actions": {
+          "invite": "邀请队友",
+          "budgets": "设置项目预算"
+        },
+        "note": "团队说明：在共享钱包上，状态适用于所有成员。",
+        "comingSoon": "即将推出 — 统一钱包、基于角色的审批和预算控制。加入测试版 {email}。",
+        "contactEmail": "support@maxvideoai.com",
+        "statusLive": "实时",
+        "statusSoon": "即将推出"
+      },
+      "estimator": {
+        "title": "成本估算器",
+        "summary": "选择引擎 · 时长 · 分辨率 → 本次渲染：{value} (估算)",
+        "estimateLoading": "…",
+        "estimateMissing": "—",
+        "fields": {
+          "engine": "引擎",
+          "mode": "模式",
+          "duration": "时长 (秒)",
+          "resolution": "分辨率"
+        },
+        "note": "注意：仅当渲染成功时才会向您收费。",
+        "memberChipSavings": "会员价 — 您节省了 {percent}%",
+        "memberChipBase": "会员价"
+      },
+      "receipts": {
+        "title": "收据",
+        "subtitle": "按引擎、时长和分辨率列出明细。适用时包含增值税。",
+        "empty": "尚无收据。",
+        "loading": "加载中…",
+        "loadMore": "加载更多",
+        "exportCsv": "导出 CSV",
+        "typeLabels": {
+          "charge": "扣费",
+          "refund": "退款",
+          "topup": "充值"
+        },
+        "fields": {
+          "total": "总计",
+          "tax": "税费",
+          "discount": "折扣"
+        }
+      },
+      "refunds": {
+        "title": "退款与保障",
+        "points": [
+          "渲染失败：自动退款。",
+          "预算控制：设置每个项目的软/硬限制。",
+          "无供应商锁定：与领先引擎合作；商标属于其所有者。"
+        ]
+      },
+      "faq": {
+        "title": "微型常见问题解答",
+        "entries": [
+          {
+            "question": "我需要订阅吗？",
+            "answer": "不需要。按需付费。"
+          },
+          {
+            "question": "我可以只买一个小渲染吗？",
+            "answer": "可以 — 资金从您的 $10 入门余额中按每次运行扣除。"
+          },
+          {
+            "question": "我的积分会过期吗？",
+            "answer": "只要您的账户保持活跃，积分就不会过期。"
+          },
+          {
+            "question": "折扣如何运作？",
+            "answer": "会员状态根据您过去 30 天的支出自动应用。"
+          }
+        ],
+        "footnote": "适用时包含增值税。渲染失败退款。“合作”表示兼容性；商标属于其各自所有者。"
+      },
+      "toasts": {
+        "success": "付款成功。资金已添加到您的钱包。",
+        "cancelled": "付款已取消。未收取任何费用。"
+      },
+      "errors": {
+        "loadReceipts": "无法加载收据",
+        "loadMore": "无法加载更多收据",
+        "loadEngines": "无法加载引擎。",
+        "estimator": "估算器失败",
+        "lowBalance": "您的余额不足。充值以继续创作。"
+      }
+    },
+    "library": {
+      "hero": {
+        "title": "库",
+        "subtitle": "导入、组织和重用参考资产。",
+        "ctas": {
+          "image": "生成图像",
+          "video": "生成视频"
+        }
+      },
+      "tabs": {
+        "all": "所有图像",
+        "upload": "已上传图像",
+        "generated": "已生成图像"
+      },
+      "assets": {
+        "title": "库资产",
+        "countLabel": "{count}",
+        "loadError": "无法加载导入的资产。",
+        "empty": "尚无导入的资产。从合成器上传参考资料或将文件拖放到此处。",
+        "emptyUploads": "尚无上传的图像。从合成器上传参考资料或将文件拖放到此处。",
+        "emptyGenerated": "尚无生成的图像保存。生成图像并将其保存到您的库中。",
+        "deleteError": "无法删除此图像。",
+        "deleteButton": "删除",
+        "downloadButton": "下载",
+        "useSettingsButton": "使用设置",
+        "deleting": "正在删除…",
+        "assetFallback": "资产"
+      }
+    },
+    "settings": {
+      "title": "设置",
+      "tabs": {
+        "account": "账户",
+        "team": "团队",
+        "privacy": "隐私与安全",
+        "notifications": "通知"
+      },
+      "account": {
+        "title": "账户",
+        "fields": {
+          "name": {
+            "label": "姓名",
+            "placeholder": "您的姓名"
+          },
+          "email": {
+            "label": "电子邮件",
+            "placeholder": "you@domain.com"
+          },
+          "locale": {
+            "label": "语言区域",
+            "options": [
+              "EN",
+              "FR",
+              "ES",
+              "ZH"
+            ]
+          },
+          "theme": {
+            "label": "主题",
+            "options": [
+              "系统",
+              "浅色",
+              "深色"
+            ]
+          }
+        }
+      },
+      "team": {
+        "title": "团队",
+        "srLive": "实时",
+        "srSoon": "即将推出",
+        "liveDescription": "管理成员、角色、预算和集成。",
+        "invite": "邀请成员",
+        "createProject": "创建项目",
+        "upcomingPrefix": "即将推出 — 共享钱包、审批和预算。加入测试版 ",
+        "upcomingEmail": "support@maxvideoai.com",
+        "upcomingSuffix": "。"
+      },
+      "privacy": {
+        "title": "隐私与安全",
+        "allowIndexLabel": "默认允许索引",
+        "allowIndexDescription": "新视频可以出现在画廊、站点地图和搜索预览中。您仍然可以从其详细视图中取消选中单个渲染。",
+        "saving": "正在保存偏好设置…",
+        "disableHint": "如果您希望每个渲染默认保持私有，请禁用此开关。已发布的视频将保持当前的可见性，直到您单独更改它们。",
+        "preferenceError": "无法更新偏好设置"
+      },
+      "notifications": {
+        "title": "通知",
+        "comingSoon": "即将推出 — 针对支出、队列健康状况和工作状态的电子邮件摘要和网络推送警报。",
+        "srSoon": "即将推出",
+        "srLive": "实时",
+        "marketing": {
+          "title": "营销电子邮件",
+          "description": "接收偶尔的更新、发布公告和工作流提示。您可以随时取消订阅。",
+          "lastUpdatedPrefix": "上次更新：",
+          "confirmPending": "需要确认 — 检查您的收件箱以完成订阅。"
+        },
+        "toggles": {
+          "jobDone": "任务完成",
+          "jobFailed": "任务失败",
+          "lowWallet": "余额不足",
+          "weeklySummary": "每周摘要"
+        },
+        "errors": {
+          "generic": "无法更新偏好设置"
+        }
+      }
+    }
+  },
+    "auth": {
+      "back": "返回",
+      "tabs": {
+        "signin": "登录",
+        "signup": "创建账户"
+      },
+      "modes": {
+        "signup": {
+          "title": "创建您的工作区账户",
+          "description": "立即访问 MaxVideoAI 工作区。我们将在您第一次渲染之前确认您的电子邮件。"
+        },
+        "signin": {
+          "title": "访问您的工作区",
+          "description": "使用 Google 或电子邮件登录以跳回工作区。"
+        },
+        "reset": {
+          "title": "重置您的密码",
+          "description": "我们将发送一个安全链接来重置您的密码。"
+        }
+      },
+      "google": "继续使用 Google",
+      "divider": "电子邮件访问",
+      "fields": {
+        "email": "电子邮件",
+        "password": "密码",
+        "confirmPassword": "确认密码"
+      },
+      "placeholders": {
+        "email": "you@domain.com",
+        "passwordNew": "至少 6 个字符",
+        "password": "••••••••"
+      },
+      "forgotPassword": "忘记密码？",
+      "actions": {
+        "signin": "使用电子邮件登录",
+        "signup": "创建账户",
+        "reset": "发送重置链接"
+      },
+      "links": {
+        "backToSignIn": "返回登录",
+        "newAccount": "创建一个新账户",
+        "haveAccount": "已有账户？登录"
+      },
+      "terms": {
+        "prefix": "我已阅读并同意 ",
+        "termsLabel": "服务条款",
+        "infix": " 和 ",
+        "privacyLabel": "隐私政策",
+        "suffix": "。",
+        "error": "您必须接受服务条款和隐私政策才能继续。",
+        "age": "我确认我至少 {age} 岁。",
+        "marketing": "是的，向我发送偶尔的产品电子邮件。我可以随时取消订阅。"
+      },
+      "signupSuggestion": {
+        "title": "新用户？",
+        "body": "使用 {email} 创建账户，无需重新输入您的详细信息。",
+        "accept": "创建此账户",
+        "decline": "再试一次"
+      }
+    }
+}
