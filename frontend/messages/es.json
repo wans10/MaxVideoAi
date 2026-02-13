@@ -218,6 +218,10 @@
       {
         "locale": "es",
         "label": "Español"
+      },
+      {
+        "locale": "zh",
+        "label": "Chino"
       }
     ],
     "sections": {

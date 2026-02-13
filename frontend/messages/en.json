@@ -138,6 +138,10 @@
       {
         "locale": "es",
         "label": "Spanish"
+      },
+      {
+        "locale": "zh",
+        "label": "Chinese"
       }
     ],
     "sections": {
