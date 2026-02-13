@@ -16,10 +16,11 @@ const FLAG_MAP: Record<Locale, string> = {
   en: '🇺🇸',
   fr: '🇫🇷',
   es: '🇪🇸',
+  zh: '🇨🇳',
 };
 
 const LOCALE_BYPASS_PREFIXES = ['/video'];
-const LOCALE_PREFIXES: Record<Locale, string> = { en: '', fr: 'fr', es: 'es' } as const;
+const LOCALE_PREFIXES: Record<Locale, string> = { en: '', fr: 'fr', es: 'es', zh: 'zh' } as const;
 const LOCALIZED_SEGMENT_TO_EN: Record<string, string> = Object.values(localizedSlugConfig).reduce(
   (map, value) => {
     Object.values(value).forEach((segment) => {
@@ -48,6 +49,7 @@ export function LanguageToggle({ variant = 'select' }: { variant?: LanguageToggl
     { locale: 'en', label: 'English' },
     { locale: 'fr', label: 'Français' },
     { locale: 'es', label: 'Español' },
+    { locale: 'zh', label: '简体中文' },
   ];
   const maybeOptions = t('footer.languages', defaultOptions);
   const options = Array.isArray(maybeOptions) && maybeOptions.length ? maybeOptions : defaultOptions;

@@ -272,6 +272,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Un primer borrador rápido cuando 720p es suficiente',
         ],
       },
+      zh: {
+        title: '当您想要以下效果时使用 Sora 2：',
+        items: [
+          '快速创意 → 视频片段迭代',
+          '故事板、概念展示、用户生成内容风格、短广告',
+          '720p 足够时的快速初稿',
+        ],
+      },
     },
     copyB: {
       en: {
@@ -296,6 +304,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Salida de mayor resolución',
           'Más control para finales (incluye control de audio en la UI)',
           'Tomas finales más limpias tras validar la idea',
+        ],
+      },
+      zh: {
+        title: '当您需要以下效果时使用 Sora 2 Pro：',
+        items: [
+          '更高分辨率的输出',
+          '更多最终成片控制（包括界面内的音频控制）',
+          '验证创意后的更清晰最终镜头',
         ],
       },
     },
@@ -330,6 +346,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Iteración rápida antes de pasar a los ganadores',
         ],
       },
+      zh: {
+        title: '当您想要以下效果时使用 Veo 3.1 Fast：',
+        items: [
+          '快速概念测试和批量草稿',
+          '更便宜的 A/B 测试广告变体和社交循环',
+          '在升级优胜者之前的快速迭代',
+        ],
+      },
     },
     copyB: {
       en: {
@@ -354,6 +378,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Mayor fidelidad y pulido',
           'Sonido en la misma pasada cuando lo necesitas',
           'Seguimiento de prompts más fiable',
+        ],
+      },
+      zh: {
+        title: '当您需要以下效果时使用 Veo 3.1：',
+        items: [
+          '更高保真的画面和打磨',
+          '在需要时一次性生成声音',
+          '对提示词更可靠的遵循',
         ],
       },
     },
@@ -388,6 +420,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Ideación rápida con timing guiado por el audio',
         ],
       },
+      zh: {
+        title: '当您想要以下效果时使用 Wan 2.5：',
+        items: [
+          '同一次渲染中的原生音频',
+          '更低成本的简单短节奏',
+          '以声音为主导时序的快速构思',
+        ],
+      },
     },
     copyB: {
       en: {
@@ -412,6 +452,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Consistencia en reference-to-video',
           'Secuencias multi-shot con timestamps',
           'Más control de formato y estructura',
+        ],
+      },
+      zh: {
+        title: '当您需要以下效果时使用 Wan 2.6：',
+        items: [
+          '参考图转视频的一致性',
+          '带时间戳的多镜头序列',
+          '更多宽高比控制和结构',
         ],
       },
     },
@@ -446,6 +494,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Look-dev rápido y borradores',
         ],
       },
+      zh: {
+        title: '当您想要以下效果时使用 Kling 2.5 Turbo：',
+        items: [
+          '动作强烈的快速无声片段',
+          '用于剪辑的预算 B-roll 循环',
+          '快速外观开发和草稿',
+        ],
+      },
     },
     copyB: {
       en: {
@@ -470,6 +526,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Audio nativo con diálogo y SFX',
           'Beats publicitarios/story más pulidos',
           'Continuidad más fuerte en la dirección de cámara',
+        ],
+      },
+      zh: {
+        title: '当您需要以下效果时使用 Kling 2.6 Pro：',
+        items: [
+          '带对话和音效的原生音频',
+          '打磨后的广告/故事节奏',
+          '更强的运镜连贯性',
         ],
       },
     },
@@ -504,6 +568,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Resultados sólidos en clips de 5–10s',
         ],
       },
+      zh: {
+        title: '当您想要以下效果时使用 Kling 2.6 Pro：',
+        items: [
+          '带对话和音效的原生音频',
+          '无需额外设置的短电影节奏',
+          '5-10秒片段的可靠结果',
+        ],
+      },
     },
     copyB: {
       en: {
@@ -528,6 +600,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Secuencias multi-prompt por escena',
           'Referencias de elementos para mayor continuidad',
           'Voice IDs y control de shot type hasta 15s',
+        ],
+      },
+      zh: {
+        title: '当您需要以下效果时使用 Kling 3 Pro：',
+        items: [
+          '跨场景的多提示词序列',
+          '元素参考以获得更强的一致性',
+          '长达 15 秒的声音 ID 和镜头类型控制',
         ],
       },
     },
@@ -563,6 +643,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Elements + end frame para consistencia',
         ],
       },
+      zh: {
+        title: '当您想要以下效果时使用 Kling 3 Standard：',
+        items: [
+          '用于社交媒体的可靠单短片',
+          '高质量的 720p 输出',
+          '无需复杂控制的标准一代',
+        ],
+      },
     },
     copyB: {
       en: {
@@ -587,6 +675,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Shot type + voice IDs',
           'Cobertura más precisa para storyboards',
           'Tomas premium y más iteración',
+        ],
+      },
+      zh: {
+        title: '当您需要以下效果时使用 Kling 3 Pro：',
+        items: [
+          '完整的 1080p 分辨率',
+          '高级提示词遵循和连贯性',
+          '细粒度的运镜和时序控制',
         ],
       },
     },
@@ -622,6 +718,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Clips cortos 4–12 s con audio on/off',
         ],
       },
+      zh: {
+        title: '当您想要以下效果时使用 Seedance 1.5 Pro：',
+        items: [
+          '极致逼真的写实主义',
+          '较慢、有分量的电影级运镜',
+          '最佳的一致性（即使需要为此等待）',
+        ],
+      },
     },
     copyB: {
       en: {
@@ -646,6 +750,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Storyboards multi‑shot hasta 15 s',
           'Elements para personajes/props consistentes',
           'Voice IDs + end frame opcional',
+        ],
+      },
+      zh: {
+        title: '当您想要以下效果时使用 Kling 3 Standard：',
+        items: [
+          '更快的生成速度和更低的成本',
+          '更具风格化的动画或艺术效果',
+          '当纯粹的写实主义不是优先事项时',
         ],
       },
     },
@@ -680,6 +792,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Rough cuts antes de finales',
         ],
       },
+      zh: {
+        title: '当您想要以下效果时使用 LTX-2 Fast：',
+        items: [
+          '几乎即时的结果（以速度为先）',
+          '针对时序和构图的无限迭代',
+          '极低成本的实验',
+        ],
+      },
     },
     copyB: {
       en: {
@@ -704,6 +824,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Entregables más pulidos para cliente',
           'Más resolución y motion más suave',
           'Sincronía audio-visual para finales',
+        ],
+      },
+      zh: {
+        title: '当您需要以下效果时使用 LTX-2 Pro：',
+        items: [
+          '最终成片的清晰度和细节',
+          '更复杂的提示词理解',
+          '无伪影的高分辨率输出',
         ],
       },
     },
@@ -738,6 +866,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Pruebas de layout ligeras',
         ],
       },
+      zh: {
+        title: '当您想要以下效果时使用 Nano Banana：',
+        items: [
+          '快速草稿和剪辑',
+          '快速概念设计和探索',
+          '轻量级布局测试',
+        ],
+      },
     },
     copyB: {
       en: {
@@ -762,6 +898,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Tipografía y layouts limpios',
           'Familias de producto consistentes',
           'Finales en alta resolución para campañas',
+        ],
+      },
+      zh: {
+        title: '当您需要以下效果时使用 Nano Banana Pro：',
+        items: [
+          '清晰的排版和布局',
+          '一致的产品系列',
+          '适合广告活动的高分辨率最终成片',
         ],
       },
     },
@@ -796,6 +940,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Continuidad en layout e identidad',
         ],
       },
+      zh: {
+        title: '当您想要以下效果时使用 Veo 3.1 First/Last：',
+        items: [
+          '针对锁定首尾镜头的双帧控制',
+          '关键帧之间的流畅过渡',
+          '布局和身份的一致性',
+        ],
+      },
     },
     copyB: {
       en: {
@@ -820,6 +972,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Clips cinematográficos de propósito general',
           'Variación de planos más flexible',
           'Casos de uso más amplios más allá de transiciones',
+        ],
+      },
+      zh: {
+        title: '当您需要以下效果时使用 Veo 3.1：',
+        items: [
+          '通用的电影级片段',
+          '更灵活的镜头变化',
+          '超越过渡的更广泛用例',
         ],
       },
     },
@@ -855,6 +1015,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Clips silenciosos fáciles de editar',
         ],
       },
+      zh: {
+        title: '当您想要以下效果时使用 Pika 2.2：',
+        items: [
+          '风格化、社交优先的动态效果',
+          '快速循环和有趣的变体',
+          '易于编辑的静音片段',
+        ],
+      },
     },
     copyB: {
       en: {
@@ -879,6 +1047,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Motion y física más cinematográficas',
           'Beats de acción camera-forward',
           'Realismo más limpio para productos',
+        ],
+      },
+      zh: {
+        title: '当您需要以下效果时使用 Kling 2.5 Turbo：',
+        items: [
+          '更具电影感的动态和物理效果',
+          '以镜头为主导的动作节奏',
+          '产品镜头的更清晰写实感',
         ],
       },
     },
@@ -914,6 +1090,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Animatics de storyboard rápidos',
         ],
       },
+      zh: {
+        title: '当您想要以下效果时使用 Hailuo 02：',
+        items: [
+          '物理感强的动态草稿',
+          '预算内的快速视觉迭代',
+          '快速故事板动态样片',
+        ],
+      },
     },
     copyB: {
       en: {
@@ -938,6 +1122,14 @@ const FOCUS_VS_PAIRS: FocusVsPair[] = [
           'Más duración por clip para el pacing',
           'Borradores más cercanos a la intención de cámara',
           'Camino fácil hacia Pro',
+        ],
+      },
+      zh: {
+        title: '当您需要以下效果时使用 LTX-2 Fast：',
+        items: [
+          '每个片段有更多时间进行节奏把控',
+          '更接近镜头意图的草稿',
+          '轻松升级到 Pro 的路径',
         ],
       },
     },
@@ -1354,24 +1546,36 @@ const SECTION_LABELS: Record<
     safety: 'Seguridad',
     faq: 'FAQ',
   },
+  zh: {
+    specs: '规格',
+    examples: '示例',
+    prompting: '提示词',
+    tips: '建议',
+    compare: '对比',
+    safety: '安全',
+    faq: '常见问题',
+  },
 };
 
 const SPEC_TITLE_BASE: Record<AppLocale, string> = {
   en: 'Real Specs',
   fr: 'Spécifications réelles',
   es: 'Especificaciones reales',
+  zh: '真实规格',
 };
 
 const SPECS_DECISION_NOTES: Record<AppLocale, string> = {
   en: 'The limits that shape your renders.',
   fr: 'Les limites qui structurent vos rendus.',
   es: 'Los límites que definen tus renders.',
+  zh: '决定渲染效果的限制因素。',
 };
 
 const SPEC_STATUS_LABELS: Record<AppLocale, { supported: string; notSupported: string; pending: string }> = {
   en: { supported: 'Supported', notSupported: 'Not supported', pending: 'Data pending' },
   fr: { supported: 'Pris en charge', notSupported: 'Non pris en charge', pending: 'Données en attente' },
   es: { supported: 'Compatible', notSupported: 'No compatible', pending: 'Datos pendientes' },
+  zh: { supported: '支持', notSupported: '不支持', pending: '数据待定' },
 };
 
 const AUTO_SPEC_LABELS: Record<
@@ -1425,6 +1629,18 @@ const AUTO_SPEC_LABELS: Record<
     nativeAudio: 'Audio nativo',
     lipSync: 'Sincronización labial',
   },
+  zh: {
+    inputsTitle: '输入与文件类型',
+    audioTitle: '音频',
+    textToVideo: '文生视频',
+    imageToVideo: '图生视频',
+    videoToVideo: '视频生视频',
+    referenceImageStyle: '参考图像 / 风格',
+    referenceVideo: '参考视频',
+    audioOutput: '音频输出',
+    nativeAudio: '原生音频',
+    lipSync: '口型同步',
+  },
 };
 
 const COMPARE_COPY_BY_LOCALE: Record<
@@ -1475,6 +1691,18 @@ const COMPARE_COPY_BY_LOCALE: Record<
     ctaExplore: (other) => `Ver ${other} →`,
     cardDescription: (model, other) =>
       `Compara ${model} vs ${other} en precio, resolución, audio, velocidad y estilo de movimiento.`,
+  },
+  zh: {
+    title: (model) => `对比 ${model} 与其他 AI 视频模型`,
+    introPrefix: (model) =>
+      `不确定 ${model} 是否最适合您的镜头？这些并排对比详细列出了权衡点 —— `,
+    introStrong: '每秒价格、分辨率、音频、速度和运动风格',
+    introSuffix: ' —— 以便您快速选择正确的引擎。',
+    subline: '每个页面都包含真实输出和实用的最佳用例。',
+    ctaCompare: (model, other) => `对比 ${model} vs ${other} →`,
+    ctaExplore: (other) => `探索 ${other} →`,
+    cardDescription: (model, other) =>
+      `在价格、分辨率、音频、速度和运动风格方面对比 ${model} vs ${other}。`,
   },
 };
 
@@ -1545,12 +1773,44 @@ const SPEC_ROW_LABEL_OVERRIDES: Record<
       releaseDate: 'Fecha de lanzamiento',
     },
   },
+  zh: {
+    video: {
+      pricePerSecond: '价格 / 秒',
+      textToVideo: '文生视频',
+      imageToVideo: '图生视频',
+      videoToVideo: '视频生视频',
+      firstLastFrame: '首/尾帧',
+      referenceImageStyle: '参考图像 / 风格',
+      referenceVideo: '参考视频',
+      maxResolution: '最大分辨率',
+      maxDuration: '最大时长',
+      aspectRatios: '宽高比',
+      fpsOptions: 'FPS 选项',
+      outputFormats: '输出格式',
+      audioOutput: '音频输出',
+      nativeAudioGeneration: '原生音频',
+      lipSync: '口型同步',
+      cameraMotionControls: '运镜控制',
+      watermark: '水印',
+      releaseDate: '发布日期',
+    },
+    image: {
+      pricePerImage: '价格 / 张',
+      textToImage: '文生图',
+      imageToImage: '图生图',
+      maxResolution: '分辨率选项',
+      aspectRatios: '宽高比',
+      outputFormats: '输出格式',
+      releaseDate: '发布日期',
+    },
+  },
 };
 
 const PRICE_AUDIO_LABELS: Record<AppLocale, { on: string; off: string }> = {
   en: { on: 'Audio on', off: 'Audio off' },
   fr: { on: 'Audio activé', off: 'Audio coupé' },
   es: { on: 'Audio activado', off: 'Audio desactivado' },
+  zh: { on: '音频开启', off: '音频关闭' },
 };
 
 const TIPS_CARD_LABELS: Record<
@@ -1560,6 +1820,7 @@ const TIPS_CARD_LABELS: Record<
   en: { strengths: 'What works best', boundaries: 'Hard limits to keep in mind' },
   fr: { strengths: 'Ce qui marche le mieux', boundaries: 'Limites à garder en tête' },
   es: { strengths: 'Lo que funciona mejor', boundaries: 'Límites a tener en cuenta' },
+  zh: { strengths: '最佳用途', boundaries: '需要注意的硬性限制' },
 };
 const VIDEO_SPEC_ROW_DEFS: Array<{ key: KeySpecKey; label: string }> = [
   { key: 'pricePerSecond', label: 'Price / second' },
@@ -2492,6 +2753,13 @@ const DEFAULT_VIDEO_TROUBLESHOOTING_BY_LOCALE: Record<AppLocale, string[]> = {
     'El sujeto se sale de la marca → empieza con una imagen de referencia y fija paleta + iluminación.',
     'El texto sale mal → evita señalética legible, UI pequeño, micro‑labels. Mantén el texto fuera de plano.',
     'El diálogo deriva → mantén líneas cortas y directas; evita monólogos largos.',
+  ],
+  zh: [
+    '结果随机 / 不一致 → 简化：主体 + 动作 + 运镜 + 灯光。重试 2–3 个变体。',
+    '动作怪异 → 减少动作幅度：单一运镜、较慢的动作、减少道具。',
+    '主体偏离品牌风格 → 从参考图像开始，并锁定色调 + 灯光。',
+    '文字错误 → 避免可读标识、微型标签、小 UI。保持文字在画面外。',
+    '对话不稳定 → 保持台词简短有力；避免长独白。',
   ],
 };
 

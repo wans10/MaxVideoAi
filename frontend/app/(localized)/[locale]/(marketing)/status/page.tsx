@@ -19,6 +19,10 @@ const STATUS_META: Record<AppLocale, { title: string; description: string }> = {
     title: 'Estado de motores — MaxVideoAI',
     description: 'Estado en vivo de los motores, salud de las colas y registro de incidentes.',
   },
+  zh: {
+    title: '服务状态 — MaxVideoAI',
+    description: '引擎、队列健康和事件的实时状态。',
+  },
 };
 
 export async function generateMetadata({ params }: { params: { locale: AppLocale } }): Promise<Metadata> {

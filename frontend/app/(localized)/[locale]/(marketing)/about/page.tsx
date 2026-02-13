@@ -20,6 +20,10 @@ const ABOUT_META: Record<AppLocale, { title: string; description: string }> = {
     description:
       'Hub independiente de video con IA que dirige el motor adecuado para cada plano con precio antes de generar.',
   },
+  zh: {
+    title: '关于 — MaxVideoAI',
+    description: '安静、优质、精准。独立的 AI 视频中心，为每个镜头路由合适的引擎。',
+  },
 };
 
 export async function generateMetadata({ params }: { params: { locale: AppLocale } }): Promise<Metadata> {

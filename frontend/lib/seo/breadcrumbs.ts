@@ -30,6 +30,13 @@ const BREADCRUMB_LABELS: Record<AppLocale, BreadcrumbLabels> = {
     pricing: 'Precios',
     blog: 'Blog',
   },
+  zh: {
+    home: '首页',
+    models: '模型',
+    examples: '示例',
+    pricing: '定价',
+    blog: '博客',
+  },
 };
 
 export function getBreadcrumbLabels(locale: AppLocale): BreadcrumbLabels {

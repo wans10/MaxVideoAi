@@ -23,6 +23,7 @@ const localeDateMap: Record<AppLocale, string> = {
   en: 'en-US',
   fr: 'fr-FR',
   es: 'es-ES',
+  zh: 'zh-CN',
 };
 
 const BLOG_TITLE_OVERRIDES: Partial<Record<string, Partial<Record<AppLocale, string>>>> = {
@@ -30,6 +31,7 @@ const BLOG_TITLE_OVERRIDES: Partial<Record<string, Partial<Record<AppLocale, str
     en: 'Sora 2 sequenced prompts for AI video – MaxVideoAI blog',
     fr: 'Sora 2 prompts séquencés vidéo IA – Blog MaxVideoAI',
     es: 'Sora 2 prompts secuenciales para video IA – Blog MaxVideoAI',
+    zh: 'Sora 2 AI 视频序列提示词 – MaxVideoAI 博客',
   },
 };
 const BLOG_SLUG_MAP = buildSlugMap('blog');

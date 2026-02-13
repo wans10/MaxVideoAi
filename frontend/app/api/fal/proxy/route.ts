@@ -10,4 +10,4 @@ if (!apiKey) {
 export const GET = falRoute.GET;
 export const POST = falRoute.POST;
 export const PUT = falRoute.PUT;
-export const OPTIONS = falRoute.handler;
+// export const OPTIONS = falRoute.handler;

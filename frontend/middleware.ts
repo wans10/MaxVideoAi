@@ -178,6 +178,7 @@ Object.values(localizedSlugConfig as Record<string, Record<string, string>>).for
     en: entry.en,
     fr: entry.fr ?? entry.en,
     es: entry.es ?? entry.en,
+    zh: entry.zh ?? entry.en,
   };
   ENGLISH_SEGMENT_TO_LOCALIZED.set(english, localized);
   Object.values(entry).forEach((value) => {

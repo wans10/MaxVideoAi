@@ -30,6 +30,11 @@ const BLOG_META = {
     description:
       'El blog de MaxVideoAI cubre Sora, Veo y Pika con guías de prompts, avisos de precios y tácticas de flujo usadas por equipos que operan motores de video IA.',
   },
+  zh: {
+    title: '博客 — MaxVideoAI',
+    description:
+      'MaxVideoAI 博客涵盖 Sora、Veo 和 Pika 更新、提示词指南、价格变动以及使用 AI 视频引擎的真实制作团队的工作流策略。',
+  },
 } satisfies Record<AppLocale, { title: string; description: string }>;
 
 export const revalidate = 60 * 10;
@@ -57,6 +62,7 @@ const localeDateMap: Record<AppLocale, string> = {
   en: 'en-US',
   fr: 'fr-FR',
   es: 'es-ES',
+  zh: 'zh-CN',
 };
 
 const DEFAULT_BLOG_FAQ = {

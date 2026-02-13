@@ -5,29 +5,30 @@ import { usePathname, useRouter } from 'next/navigation';
 import clsx from 'clsx';
 import { Globe } from 'lucide-react';
 import { LOCALE_COOKIE } from '@/lib/i18n/constants';
+import { type AppLocale } from '@/i18n/locales';
 import { useI18n } from '@/lib/i18n/I18nProvider';
 import { Button } from '@/components/ui/Button';
 import { UIIcon } from '@/components/ui/UIIcon';
 
-type Locale = 'en' | 'fr' | 'es';
-
-const FLAG_MAP: Record<Locale, string> = {
+const FLAG_MAP: Record<AppLocale, string> = {
   en: '🇺🇸',
   fr: '🇫🇷',
   es: '🇪🇸',
+  zh: '🇨🇳',
 };
 
-const OPTIONS: Array<{ locale: Locale; label: string }> = [
+const OPTIONS: Array<{ locale: AppLocale; label: string }> = [
   { locale: 'en', label: 'English' },
   { locale: 'fr', label: 'Français' },
   { locale: 'es', label: 'Español' },
+  { locale: 'zh', label: '简体中文' },
 ];
 
 export function AppLanguageToggle() {
   const router = useRouter();
   const pathname = usePathname();
   const { locale, t } = useI18n();
-  const [pendingLocale, setPendingLocale] = useState<Locale>(locale);
+  const [pendingLocale, setPendingLocale] = useState<AppLocale>(locale);
   const [menuOpen, setMenuOpen] = useState(false);
   const buttonRef = useRef<HTMLButtonElement | null>(null);
   const menuRef = useRef<HTMLDivElement | null>(null);
@@ -39,7 +40,7 @@ export function AppLanguageToggle() {
 
   const options = useMemo(() => OPTIONS, []);
 
-  const handleChange = (value: Locale) => {
+  const handleChange = (value: AppLocale) => {
     setPendingLocale(value);
     setMenuOpen(false);
     const maxAge = 60 * 60 * 24 * 365;
