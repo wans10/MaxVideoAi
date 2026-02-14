@@ -10,10 +10,10 @@ export function NotFoundContent() {
         We can&apos;t find that URL. It might be outdated, or it never existed. Use the links below to keep exploring MaxVideoAI.
       </p>
       <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-        <ButtonLink href={{ pathname: '/' }} className="shadow-card" linkComponent={Link}>
+        <ButtonLink href="/" className="shadow-card" linkComponent={Link}>
           Back to homepage
         </ButtonLink>
-        <ButtonLink href={{ pathname: '/models' }} variant="outline" linkComponent={Link}>
+        <ButtonLink href="/models" variant="outline" linkComponent={Link}>
           Browse video models
         </ButtonLink>
       </div>

@@ -561,7 +561,7 @@ export default async function ExamplesPage({ searchParams, engineFromPath }: Exa
   const selectedEngineLabel = selectedOption?.label ?? 'Model';
   const modelSlug = selectedEngine ? ENGINE_MODEL_LINKS[selectedEngine.toLowerCase()] ?? null : null;
   const modelPath = modelSlug ? { pathname: '/models/[slug]', params: { slug: modelSlug } } : null;
-  const pricingPath = { pathname: '/pricing' };
+  const pricingPath = '/pricing';
   const engineModelLinkLabel =
     locale === 'fr'
       ? `Voir le modèle ${selectedEngineLabel}`

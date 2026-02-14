@@ -1057,7 +1057,7 @@ export default async function ModelsPage() {
                   {listingCopy.cta?.primaryLabel ?? 'Generate now'}
                 </Link>
                 <Link
-                  href={{ pathname: '/examples' }}
+                  href="/examples"
                   className="inline-flex items-center rounded-full border border-text-primary/40 bg-transparent px-5 py-3 text-xs font-semibold uppercase tracking-micro text-text-primary transition hover:border-text-primary/60"
                   aria-label="Browse examples (opens gallery)"
                 >

@@ -158,8 +158,8 @@ export default async function PricingPage({ params }: { params: { locale: AppLoc
   const exploreModelsLabel = locale === 'fr' ? 'Modèles' : locale === 'es' ? 'Modelos' : 'Models';
   const exploreExamplesLabel = locale === 'fr' ? 'Exemples' : locale === 'es' ? 'Ejemplos' : 'Examples';
   const exploreLinks = [
-    { href: { pathname: '/models' }, label: exploreModelsLabel },
-    { href: { pathname: '/examples' }, label: exploreExamplesLabel },
+    { href: '/models', label: exploreModelsLabel },
+    { href: '/examples', label: exploreExamplesLabel },
     { href: { pathname: '/models/[slug]', params: { slug: 'sora-2' } }, label: 'Sora 2' },
     { href: { pathname: '/models/[slug]', params: { slug: 'veo-3-1' } }, label: 'Veo 3.1' },
     { href: { pathname: '/models/[slug]', params: { slug: 'kling-3-standard' } }, label: 'Kling' },

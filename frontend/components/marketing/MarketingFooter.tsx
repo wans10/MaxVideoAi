@@ -106,17 +106,17 @@ export function MarketingFooter() {
 
   const productLinks: FooterLink[] = [
     { key: 'generate', label: labelFor('footer.sections.product.items.generate', 'Generate'), href: '/app' },
-    { key: 'pricing', label: labelFor('footer.sections.product.items.pricing', 'Pricing'), href: { pathname: '/pricing' } },
-    { key: 'workflows', label: labelFor('footer.sections.product.items.workflows', 'Workflows'), href: { pathname: '/workflows' } },
-    { key: 'docs', label: labelFor('footer.sections.product.items.docs', 'Docs'), href: { pathname: '/docs' } },
-    { key: 'models', label: labelFor('footer.sections.product.items.models', 'All models'), href: { pathname: '/models' } },
+    { key: 'pricing', label: labelFor('footer.sections.product.items.pricing', 'Pricing'), href: '/pricing' },
+    { key: 'workflows', label: labelFor('footer.sections.product.items.workflows', 'Workflows'), href: '/workflows' },
+    { key: 'docs', label: labelFor('footer.sections.product.items.docs', 'Docs'), href: '/docs' },
+    { key: 'models', label: labelFor('footer.sections.product.items.models', 'All models'), href: '/models' },
   ];
 
   const companyLinks: FooterLink[] = [
-    { key: 'blog', label: labelFor('footer.sections.company.items.blog', 'Blog'), href: { pathname: '/blog' } },
-    { key: 'about', label: labelFor('footer.sections.company.items.about', 'About'), href: { pathname: '/about' } },
-    { key: 'contact', label: labelFor('footer.sections.company.items.contact', 'Contact'), href: { pathname: '/contact' } },
-    { key: 'status', label: labelFor('footer.sections.company.items.status', 'Status'), href: { pathname: '/status' } },
+    { key: 'blog', label: labelFor('footer.sections.company.items.blog', 'Blog'), href: '/blog' },
+    { key: 'about', label: labelFor('footer.sections.company.items.about', 'About'), href: '/about' },
+    { key: 'contact', label: labelFor('footer.sections.company.items.contact', 'Contact'), href: '/contact' },
+    { key: 'status', label: labelFor('footer.sections.company.items.status', 'Status'), href: '/status' },
   ];
 
   const brandLabel = t('nav.brand', 'MaxVideo AI') ?? 'MaxVideo AI';

@@ -166,11 +166,11 @@ export default async function WorkflowsPage({ params }: { params: { locale: AppL
             <ButtonLink href="/app" prefetch={false} size="lg" className="shadow-card" linkComponent={Link}>
               {content.hero?.primaryCta ?? 'Generate now'}
             </ButtonLink>
-            <ButtonLink href={{ pathname: '/examples' }} variant="outline" size="lg" linkComponent={Link}>
+            <ButtonLink href="/examples" variant="outline" size="lg" linkComponent={Link}>
               {content.hero?.secondaryCta ?? 'Browse examples'}
             </ButtonLink>
             <Link
-              href={{ pathname: '/models' }}
+              href="/models"
               className="text-sm font-semibold text-text-secondary underline underline-offset-4 transition hover:text-text-primary"
             >
               {content.hero?.tertiaryCta ?? 'Compare models'}
@@ -226,7 +226,7 @@ export default async function WorkflowsPage({ params }: { params: { locale: AppL
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {exampleEntries.map((entry) => {
                 const accentId = entry.brandId || 'google';
-                const exampleHref = getExamplesHref(entry.slug) ?? { pathname: '/examples' };
+                const exampleHref = getExamplesHref(entry.slug) ?? '/examples';
                 return (
                 <Link
                   key={entry.slug}
@@ -284,7 +284,7 @@ export default async function WorkflowsPage({ params }: { params: { locale: AppL
               <ButtonLink href="/app" prefetch={false} size="lg" className="shadow-card" linkComponent={Link}>
                 {content.cta?.primaryCta ?? 'Generate now'}
               </ButtonLink>
-              <ButtonLink href={{ pathname: '/examples' }} variant="outline" size="lg" linkComponent={Link}>
+              <ButtonLink href="/examples" variant="outline" size="lg" linkComponent={Link}>
                 {content.cta?.secondaryCta ?? 'Browse examples'}
               </ButtonLink>
             </div>

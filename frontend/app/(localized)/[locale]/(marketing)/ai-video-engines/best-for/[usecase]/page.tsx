@@ -157,7 +157,7 @@ export default async function BestForDetailPage({ params }: { params: Params }) 
 
         <div className="text-sm text-text-muted">
           <Link
-            href={{ pathname: '/ai-video-engines/best-for' }}
+            href="/ai-video-engines/best-for"
             className="font-semibold text-brand hover:text-brandHover"
           >
             Back to Best-for hub
