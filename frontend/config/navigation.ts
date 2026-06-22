@@ -38,7 +38,7 @@ export const MARKETING_TOP_NAV_LINKS: readonly MarketingTopNavLink[] = [
   { key: 'compare', href: '/ai-video-engines' },
   { key: 'tools', href: '/tools' },
   { key: 'pricing', href: '/pricing' },
-  { key: 'blog', href: '/blog' },
+  // { key: 'blog', href: '/blog' },
 ] as const;
 
 type LabeledSlug = { slug: string; label: string };
