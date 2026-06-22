@@ -1,0 +1,25 @@
+# ==============================================================================
+# MaxVideoAI — Cron Job Schedule (Supercronic)
+#
+# Replaces Vercel Cron definitions from frontend/vercel.json.
+# Each job calls the corresponding Next.js API route via curl.
+# Authentication uses CRON_SECRET via Authorization header.
+#
+# Supercronic runs commands via sh -c, so $CRON_SECRET is expanded at runtime.
+# ==============================================================================
+
+# --- Provider polling (every 5 minutes) ---
+*/5 * * * * /usr/local/bin/cron-curl.sh /api/cron/fal-poll "fal-poll"
+*/5 * * * * /usr/local/bin/cron-curl.sh /api/cron/byteplus-poll "byteplus-poll"
+*/5 * * * * /usr/local/bin/cron-curl.sh /api/cron/kling-direct-poll "kling-direct-poll"
+*/5 * * * * /usr/local/bin/cron-curl.sh /api/cron/google-vertex-veo-poll "vertex-veo-poll"
+*/5 * * * * /usr/local/bin/cron-curl.sh /api/cron/luma-agents-poll "luma-agents-poll"
+
+# --- Reconciliation (every 10 minutes) ---
+*/10 * * * * /usr/local/bin/cron-curl.sh /api/cron/reconcile-missing-jobs "reconcile-jobs"
+
+# --- Daily cleanup: expired background removal assets (03:37 UTC) ---
+37 3 * * * /usr/local/bin/cron-curl.sh /api/cron/background-removal-retention "bg-removal-retention"
+
+# --- Daily infra cost alert (08:00 UTC) ---
+0 8 * * * /usr/local/bin/cron-curl.sh /api/cron/infra-costs-alert "infra-costs-alert"

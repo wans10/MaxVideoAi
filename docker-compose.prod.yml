@@ -1,0 +1,112 @@
+# ==============================================================================
+# MaxVideoAI — Production Docker Compose
+#
+# Usage:
+#   docker compose -f docker-compose.prod.yml up -d --build
+#   docker compose -f docker-compose.prod.yml logs -f
+#   docker compose -f docker-compose.prod.yml down
+#
+# Prerequisites:
+#   1. Copy .env.production.example → .env.production and fill in values
+#   2. SSL certificate obtained via certbot (see docs/deployment/self-hosted.md)
+# ==============================================================================
+
+services:
+  # --------------------------------------------------------------------------
+  # Next.js Application
+  # --------------------------------------------------------------------------
+  nextjs:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        # NEXT_PUBLIC_* vars must be passed at build time (inlined into JS bundle).
+        # Values are read from .env.production via the env_file directive.
+        - NEXT_PUBLIC_API_BASE=${NEXT_PUBLIC_API_BASE:-/api}
+        - NEXT_PUBLIC_SUPABASE_URL=${NEXT_PUBLIC_SUPABASE_URL}
+        - NEXT_PUBLIC_SUPABASE_ANON_KEY=${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+        - NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=${NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY}
+        - NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL:-https://video.llmhub.net}
+        - NEXT_PUBLIC_ASSET_UPLOAD_TARGET_MB=${NEXT_PUBLIC_ASSET_UPLOAD_TARGET_MB:-4}
+        - NEXT_PUBLIC_LEGAL_MIN_AGE=${NEXT_PUBLIC_LEGAL_MIN_AGE:-15}
+        - NEXT_PUBLIC_GOOGLE_CONSENT_MODE=${NEXT_PUBLIC_GOOGLE_CONSENT_MODE:-auto}
+        - NEXT_PUBLIC_GOOGLE_ADS_ID=${NEXT_PUBLIC_GOOGLE_ADS_ID}
+        - NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_ID=${NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_ID}
+        - NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_CURRENCY=${NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_CURRENCY}
+        - NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=${NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}
+        - NEXT_PUBLIC_BING_VERIFY=${NEXT_PUBLIC_BING_VERIFY}
+        - NEXT_PUBLIC_CLARITY_ID=${NEXT_PUBLIC_CLARITY_ID}
+        - NEXT_PUBLIC_ENABLE_CLARITY=${NEXT_PUBLIC_ENABLE_CLARITY:-false}
+        - NEXT_PUBLIC_CLARITY_ALLOWED_HOSTS=${NEXT_PUBLIC_CLARITY_ALLOWED_HOSTS}
+        - NEXT_PUBLIC_CLARITY_DEBUG=${NEXT_PUBLIC_CLARITY_DEBUG:-false}
+        - NEXT_PUBLIC_ENABLE_SEARCH_SCHEMA=${NEXT_PUBLIC_ENABLE_SEARCH_SCHEMA:-false}
+        - NEXT_PUBLIC_WORKSPACE_CENTER_GALLERY=${NEXT_PUBLIC_WORKSPACE_CENTER_GALLERY:-false}
+        - GIT_SHA=${GIT_SHA:-unknown}
+    env_file:
+      - .env.production
+    restart: unless-stopped
+    healthcheck:
+      test: >-
+        node -e "
+          const http = require('http');
+          const token = process.env.HEALTHCHECK_TOKEN || '';
+          const headers = token ? { 'x-healthcheck-token': token } : {};
+          const req = http.request(
+            { hostname: 'localhost', port: 3000, path: '/api/health/env', timeout: 5000, headers },
+            (res) => process.exit(res.statusCode === 200 ? 0 : 1)
+          );
+          req.on('error', () => process.exit(1));
+          req.on('timeout', () => { req.destroy(); process.exit(1); });
+          req.end();
+        "
+      interval: 30s
+      timeout: 10s
+      start_period: 40s
+      retries: 3
+    deploy:
+      resources:
+        limits:
+          memory: 6g
+        reservations:
+          memory: 512m
+    networks:
+      - internal
+
+  # --------------------------------------------------------------------------
+  # Nginx Reverse Proxy (SSL termination)
+  # --------------------------------------------------------------------------
+  nginx:
+    image: nginx:1.27-alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - /var/www/certbot:/var/www/certbot:ro
+    depends_on:
+      nextjs:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - internal
+
+  # --------------------------------------------------------------------------
+  # Cron Jobs (replaces Vercel Cron)
+  # --------------------------------------------------------------------------
+  cron:
+    build:
+      context: ./cron
+      dockerfile: Dockerfile
+    env_file:
+      - .env.production
+    depends_on:
+      nextjs:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge
